@@ -1,0 +1,378 @@
+{
+glyphname = l.sups;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (98,330);
+},
+{
+name = center;
+pos = (98,599);
+},
+{
+name = top;
+pos = (98,852);
+},
+{
+name = topright;
+pos = (156,852);
+}
+);
+layerId = m008;
+shapes = (
+{
+closed = 1;
+nodes = (
+(129,330,l),
+(129,852,l),
+(66,852,l),
+(66,330,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+adjustSpace = 20;
+height = 74;
+verticalShift = 330;
+weight = -2;
+width = 80;
+};
+};
+width = 195;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (132,330);
+},
+{
+name = center;
+pos = (132,615);
+},
+{
+name = top;
+pos = (132,852);
+},
+{
+name = topright;
+pos = (213,852);
+}
+);
+layerId = "E0044746-7B1A-4AF1-A08A-EDFF47B9B447";
+shapes = (
+{
+closed = 1;
+nodes = (
+(163,330,l),
+(163,874,l),
+(100,874,l),
+(100,330,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+adjustSpace = 40;
+height = 74;
+verticalShift = 330;
+weight = -2;
+width = 80;
+};
+};
+width = 263;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (137,330);
+},
+{
+name = center;
+pos = (137,599);
+},
+{
+name = top;
+pos = (137,852);
+},
+{
+name = topright;
+pos = (239,852);
+}
+);
+layerId = "EAEE501F-808F-4F80-A534-C44A55AE9CF1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(226,330,l),
+(226,852,l),
+(48,852,l),
+(48,330,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+adjustSpace = 20;
+height = 74;
+verticalShift = 330;
+weight = -2;
+width = 80;
+};
+};
+width = 274;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (174,330);
+},
+{
+name = center;
+pos = (174,597);
+},
+{
+name = top;
+pos = (174,852);
+},
+{
+name = topright;
+pos = (294,852);
+}
+);
+layerId = "D0F786FD-D799-4DD4-8218-8DF09CBA4779";
+shapes = (
+{
+closed = 1;
+nodes = (
+(263,330,l),
+(263,874,l),
+(85,874,l),
+(85,330,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+adjustSpace = 40;
+height = 74;
+verticalShift = 330;
+weight = -2;
+width = 80;
+};
+};
+width = 348;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (73,330);
+},
+{
+name = center;
+pos = (73,599);
+},
+{
+name = top;
+pos = (73,852);
+},
+{
+name = topright;
+pos = (123,852);
+}
+);
+layerId = "38794FDE-96C3-45FE-89A8-4F68FD88490C";
+shapes = (
+{
+closed = 1;
+nodes = (
+(103,330,l),
+(103,852,l),
+(44,852,l),
+(44,330,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+adjustSpace = 5;
+height = 74;
+verticalShift = 330;
+weight = -2;
+width = 85;
+};
+};
+width = 147;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (125,330);
+},
+{
+name = center;
+pos = (125,600);
+},
+{
+name = top;
+pos = (125,855);
+},
+{
+name = topright;
+pos = (216,855);
+}
+);
+layerId = "BD94C4B7-004C-4524-8669-6CB6D8067CD8";
+shapes = (
+{
+closed = 1;
+nodes = (
+(205,330,l),
+(205,855,l),
+(46,855,l),
+(46,330,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+adjustSpace = 20;
+height = 74;
+verticalShift = 330;
+weight = -2;
+width = 80;
+};
+};
+width = 251;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (98,330);
+},
+{
+name = center;
+pos = (98,599);
+},
+{
+name = top;
+pos = (98,852);
+},
+{
+name = topright;
+pos = (172,852);
+}
+);
+layerId = "B4464F9C-2DA6-418A-B3C4-1470167D4EB6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(129,330,l),
+(129,852,l),
+(66,852,l),
+(66,330,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+adjustSpace = 20;
+height = 74;
+verticalShift = 330;
+weight = -2;
+width = 80;
+};
+};
+width = 195;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (150,330);
+},
+{
+name = center;
+pos = (150,599);
+},
+{
+name = top;
+pos = (150,852);
+},
+{
+name = topright;
+pos = (276,852);
+}
+);
+background = {
+anchors = (
+{
+name = bottom;
+pos = (157,330);
+},
+{
+name = center;
+pos = (157,599);
+},
+{
+name = top;
+pos = (157,852);
+},
+{
+name = topright;
+pos = (274,852);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(266,330,l),
+(266,852,l),
+(48,852,l),
+(48,330,l)
+);
+}
+);
+};
+layerId = "9C3D73EE-3D01-4F34-8F18-5001540A34C7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(249,330,l),
+(249,852,l),
+(51,852,l),
+(51,330,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+adjustSpace = 20;
+height = 74;
+verticalShift = 330;
+weight = -2;
+width = 80;
+};
+};
+width = 300;
+}
+);
+note = l;
+userData = {
+RMXScaler = {
+source = l;
+};
+};
+}

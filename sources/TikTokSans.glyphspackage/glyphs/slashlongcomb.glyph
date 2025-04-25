@@ -1,0 +1,193 @@
+{
+export = 0;
+glyphname = slashlongcomb;
+layers = (
+{
+anchors = (
+{
+name = _center;
+pos = (397,353);
+}
+);
+guides = (
+{
+angle = 136.7124;
+pos = (701,720);
+}
+);
+layerId = m008;
+shapes = (
+{
+closed = 1;
+nodes = (
+(744,705,l),
+(663,705,l),
+(50,0,l),
+(131,0,l)
+);
+}
+);
+width = 794;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (397,353);
+}
+);
+layerId = "E0044746-7B1A-4AF1-A08A-EDFF47B9B447";
+shapes = (
+{
+closed = 1;
+nodes = (
+(744,705,l),
+(663,705,l),
+(50,0,l),
+(131,0,l)
+);
+}
+);
+width = 794;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (429,353);
+}
+);
+layerId = "EAEE501F-808F-4F80-A534-C44A55AE9CF1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(808,705,l),
+(663,705,l),
+(50,0,l),
+(195,0,l)
+);
+}
+);
+width = 858;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (409,353);
+}
+);
+layerId = "D0F786FD-D799-4DD4-8218-8DF09CBA4779";
+shapes = (
+{
+closed = 1;
+nodes = (
+(767,705,l),
+(645,705,l),
+(50,0,l),
+(172,0,l)
+);
+}
+);
+width = 817;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (298,353);
+}
+);
+guides = (
+{
+angle = 136.7124;
+pos = (698,720);
+}
+);
+layerId = "38794FDE-96C3-45FE-89A8-4F68FD88490C";
+shapes = (
+{
+closed = 1;
+nodes = (
+(562,705,l),
+(495,705,l),
+(35,0,l),
+(102,0,l)
+);
+}
+);
+width = 597;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (361,353);
+}
+);
+layerId = "BD94C4B7-004C-4524-8669-6CB6D8067CD8";
+shapes = (
+{
+closed = 1;
+nodes = (
+(679,705,l),
+(547,705,l),
+(42,0,l),
+(174,0,l)
+);
+}
+);
+width = 721;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (551,353);
+}
+);
+guides = (
+{
+angle = 136.7124;
+pos = (666,720);
+}
+);
+layerId = "B4464F9C-2DA6-418A-B3C4-1470167D4EB6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1053,705,l),
+(958,705,l),
+(50,0,l),
+(145,0,l)
+);
+}
+);
+width = 1103;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (440,353);
+}
+);
+layerId = "9C3D73EE-3D01-4F34-8F18-5001540A34C7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(963,705,l),
+(783,705,l),
+(-83,0,l),
+(97,0,l)
+);
+}
+);
+width = 880;
+}
+);
+unicode = 824;
+}

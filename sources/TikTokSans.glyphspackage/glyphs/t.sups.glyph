@@ -1,0 +1,611 @@
+{
+glyphname = t.sups;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (204,330);
+},
+{
+name = center;
+pos = (161,543);
+},
+{
+name = top;
+pos = (162,708);
+},
+{
+name = topright;
+pos = (221,852);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (311,451);
+},
+{
+angle = 90;
+pos = (329,479);
+}
+);
+layerId = m008;
+name = "RM Display 1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(247,323,o),
+(264,325,o),
+(283,331,c),
+(283,387,l),
+(268,382,o),
+(256,380,o),
+(242,380,cs),
+(205,380,o),
+(185,398,o),
+(185,436,cs),
+(185,834,l),
+(122,794,l),
+(122,426,ls),
+(122,355,o),
+(159,323,o),
+(229,323,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(287,656,l),
+(287,708,l),
+(35,708,l),
+(35,656,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+adjustSpace = 20;
+height = 74;
+verticalShift = 330;
+weight = -2;
+width = 80;
+};
+};
+width = 323;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (224,330);
+},
+{
+name = center;
+pos = (186,547);
+},
+{
+name = top;
+pos = (186,722);
+},
+{
+name = topright;
+pos = (240,852);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (324,471);
+}
+);
+layerId = "E0044746-7B1A-4AF1-A08A-EDFF47B9B447";
+name = "RM Display 1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(271,323,o),
+(288,325,o),
+(307,333,c),
+(307,384,l),
+(290,377,o),
+(275,376,o),
+(265,376,cs),
+(229,376,o),
+(208,396,o),
+(208,439,cs),
+(208,849,l),
+(145,809,l),
+(145,432,ls),
+(145,357,o),
+(182,323,o),
+(252,323,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(307,673,l),
+(307,722,l),
+(65,722,l),
+(65,673,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+adjustSpace = 40;
+height = 74;
+verticalShift = 330;
+weight = -2;
+width = 80;
+};
+};
+width = 372;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (204,330);
+},
+{
+name = center;
+pos = (173,540);
+},
+{
+name = top;
+pos = (176,729);
+},
+{
+name = topright;
+pos = (261,852);
+}
+);
+layerId = "EAEE501F-808F-4F80-A534-C44A55AE9CF1";
+name = "RM Display 1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(258,323,o),
+(283,327,o),
+(313,334,c),
+(313,474,l),
+(305,472,o),
+(296,470,o),
+(288,470,cs),
+(270,470,o),
+(261,476,o),
+(261,487,cs),
+(261,866,l),
+(83,808,l),
+(83,441,ls),
+(83,367,o),
+(137,323,o),
+(234,323,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(317,595,l),
+(317,729,l),
+(31,729,l),
+(31,595,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+adjustSpace = 20;
+height = 74;
+verticalShift = 330;
+weight = -2;
+width = 80;
+};
+};
+width = 349;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (220,330);
+},
+{
+name = center;
+pos = (193,534);
+},
+{
+name = top;
+pos = (193,733);
+},
+{
+name = topright;
+pos = (310,852);
+}
+);
+layerId = "D0F786FD-D799-4DD4-8218-8DF09CBA4779";
+name = "RM Display 1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(280,323,o),
+(307,328,o),
+(337,339,c),
+(337,452,l),
+(326,453,o),
+(314,451,o),
+(306,451,cs),
+(288,451,o),
+(279,457,o),
+(279,464,cs),
+(279,853,l),
+(101,795,l),
+(101,439,ls),
+(101,366,o),
+(155,323,o),
+(253,323,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(337,596,l),
+(337,710,l),
+(47,710,l),
+(47,596,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+adjustSpace = 40;
+height = 74;
+verticalShift = 330;
+weight = -2;
+width = 80;
+};
+};
+width = 384;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (154,330);
+},
+{
+name = center;
+pos = (121,543);
+},
+{
+name = top;
+pos = (121,708);
+},
+{
+name = topright;
+pos = (171,852);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (313,451);
+},
+{
+angle = 90;
+pos = (331,479);
+}
+);
+layerId = "38794FDE-96C3-45FE-89A8-4F68FD88490C";
+name = "RM Display 1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(191,323,o),
+(205,325,o),
+(219,331,c),
+(219,381,l),
+(208,377,o),
+(198,376,o),
+(188,376,cs),
+(156,376,o),
+(144,390,o),
+(144,427,cs),
+(144,834,l),
+(86,794,l),
+(86,418,ls),
+(86,352,o),
+(112,323,o),
+(174,323,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(223,659,l),
+(223,708,l),
+(19,708,l),
+(19,659,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+adjustSpace = 5;
+height = 74;
+verticalShift = 330;
+weight = -2;
+width = 85;
+};
+};
+width = 242;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (184,330);
+},
+{
+name = center;
+pos = (157,541);
+},
+{
+name = top;
+pos = (159,730);
+},
+{
+name = topright;
+pos = (236,855);
+}
+);
+layerId = "BD94C4B7-004C-4524-8669-6CB6D8067CD8";
+name = "RM Display 1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(228,323,o),
+(258,327,o),
+(282,333,c),
+(282,458,l),
+(275,456,o),
+(265,455,o),
+(258,455,cs),
+(241,455,o),
+(235,461,o),
+(235,475,cs),
+(235,866,l),
+(76,812,l),
+(76,447,ls),
+(76,366,o),
+(120,323,o),
+(204,323,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(285,608,l),
+(285,730,l),
+(30,730,l),
+(30,608,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+adjustSpace = 20;
+height = 74;
+verticalShift = 330;
+weight = -2;
+width = 80;
+};
+};
+width = 315;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (271,330);
+},
+{
+name = center;
+pos = (211,543);
+},
+{
+name = top;
+pos = (204,708);
+},
+{
+name = topright;
+pos = (286,852);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (303,451);
+},
+{
+angle = 90;
+pos = (321,479);
+}
+);
+layerId = "B4464F9C-2DA6-418A-B3C4-1470167D4EB6";
+name = "RM Display 1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(336,323,o),
+(357,326,o),
+(382,333,c),
+(382,389,l),
+(360,383,o),
+(341,380,o),
+(315,380,cs),
+(245,380,o),
+(222,401,o),
+(222,465,cs),
+(222,834,l),
+(159,794,l),
+(159,455,ls),
+(159,361,o),
+(201,323,o),
+(308,323,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(388,656,l),
+(388,708,l),
+(35,708,l),
+(35,656,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+adjustSpace = 20;
+height = 74;
+verticalShift = 330;
+weight = -2;
+width = 80;
+};
+};
+width = 424;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (355,330);
+},
+{
+name = center;
+pos = (265,523);
+},
+{
+name = top;
+pos = (276,737);
+},
+{
+name = topright;
+pos = (408,852);
+}
+);
+background = {
+anchors = (
+{
+name = bottom;
+pos = (205,330);
+},
+{
+name = center;
+pos = (178,539);
+},
+{
+name = top;
+pos = (182,736);
+},
+{
+name = topright;
+pos = (276,852);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(263,323,o),
+(291,328,o),
+(324,335,c),
+(324,504,l),
+(319,503,o),
+(311,501,o),
+(305,501,cs),
+(295,501,o),
+(288,503,o),
+(288,505,cs),
+(288,877,l),
+(70,813,l),
+(70,446,ls),
+(70,372,o),
+(130,323,o),
+(237,323,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(328,574,l),
+(328,736,l),
+(31,736,l),
+(31,574,l)
+);
+}
+);
+};
+layerId = "9C3D73EE-3D01-4F34-8F18-5001540A34C7";
+name = "RM Display 1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(418,323,o),
+(477,329,o),
+(512,335,c),
+(512,486,l),
+(493,483,o),
+(472,481,o),
+(450,481,cs),
+(390,481,o),
+(373,494,o),
+(373,545,cs),
+(373,876,l),
+(161,814,l),
+(161,512,ls),
+(161,381,o),
+(225,323,o),
+(369,323,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(520,596,l),
+(520,737,l),
+(32,737,l),
+(32,596,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+adjustSpace = 20;
+height = 74;
+verticalShift = 330;
+weight = -2;
+width = 80;
+};
+};
+width = 558;
+}
+);
+note = t;
+userData = {
+RMXScaler = {
+source = t;
+};
+};
+}

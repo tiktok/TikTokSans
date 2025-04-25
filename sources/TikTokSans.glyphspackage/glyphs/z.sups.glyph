@@ -1,0 +1,379 @@
+{
+glyphname = z.sups;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (206,330);
+},
+{
+name = center;
+pos = (206,519);
+},
+{
+name = top;
+pos = (206,708);
+}
+);
+layerId = m008;
+shapes = (
+{
+closed = 1;
+nodes = (
+(373,330,l),
+(373,385,l),
+(84,385,l),
+(84,385,l),
+(354,615,l),
+(354,708,l),
+(55,708,l),
+(55,653,l),
+(311,653,l),
+(311,653,l),
+(41,423,l),
+(41,330,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+adjustSpace = 20;
+height = 74;
+verticalShift = 330;
+weight = -2;
+width = 80;
+};
+};
+width = 413;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (248,330);
+},
+{
+name = center;
+pos = (248,526);
+},
+{
+name = top;
+pos = (248,722);
+}
+);
+layerId = "E0044746-7B1A-4AF1-A08A-EDFF47B9B447";
+shapes = (
+{
+closed = 1;
+nodes = (
+(419,330,l),
+(419,383,l),
+(132,383,l),
+(132,386,l),
+(401,644,l),
+(401,722,l),
+(86,722,l),
+(86,668,l),
+(346,668,l),
+(346,665,l),
+(77,407,l),
+(77,330,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+adjustSpace = 40;
+height = 74;
+verticalShift = 330;
+weight = -2;
+width = 80;
+};
+};
+width = 495;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (241,330);
+},
+{
+name = center;
+pos = (241,529);
+},
+{
+name = top;
+pos = (241,729);
+}
+);
+layerId = "EAEE501F-808F-4F80-A534-C44A55AE9CF1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(448,330,l),
+(448,469,l),
+(209,469,l),
+(209,469,l),
+(424,516,l),
+(424,729,l),
+(54,729,l),
+(54,590,l),
+(270,590,l),
+(270,590,l),
+(55,544,l),
+(55,330,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+adjustSpace = 20;
+height = 74;
+verticalShift = 330;
+weight = -2;
+width = 80;
+};
+};
+width = 483;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (261,330);
+},
+{
+name = center;
+pos = (261,532);
+},
+{
+name = top;
+pos = (261,734);
+}
+);
+layerId = "D0F786FD-D799-4DD4-8218-8DF09CBA4779";
+shapes = (
+{
+closed = 1;
+nodes = (
+(461,330,l),
+(461,458,l),
+(225,458,l),
+(225,462,l),
+(447,561,l),
+(447,734,l),
+(72,734,l),
+(72,605,l),
+(293,605,l),
+(293,601,l),
+(71,502,l),
+(71,330,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+adjustSpace = 40;
+height = 74;
+verticalShift = 330;
+weight = -2;
+width = 80;
+};
+};
+width = 521;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (150,330);
+},
+{
+name = center;
+pos = (141,519);
+},
+{
+name = top;
+pos = (150,708);
+}
+);
+layerId = "38794FDE-96C3-45FE-89A8-4F68FD88490C";
+shapes = (
+{
+closed = 1;
+nodes = (
+(281,330,l),
+(281,382,l),
+(66,382,l),
+(66,382,l),
+(264,624,l),
+(264,708,l),
+(35,708,l),
+(35,656,l),
+(223,656,l),
+(223,656,l),
+(25,414,l),
+(25,330,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+adjustSpace = 5;
+height = 74;
+verticalShift = 330;
+weight = -2;
+width = 85;
+};
+};
+width = 305;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (205,330);
+},
+{
+name = center;
+pos = (209,529);
+},
+{
+name = top;
+pos = (205,730);
+}
+);
+layerId = "BD94C4B7-004C-4524-8669-6CB6D8067CD8";
+shapes = (
+{
+closed = 1;
+nodes = (
+(375,330,l),
+(375,454,l),
+(190,454,l),
+(190,454,l),
+(363,557,l),
+(363,730,l),
+(55,730,l),
+(55,606,l),
+(225,606,l),
+(225,606,l),
+(52,503,l),
+(52,330,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+adjustSpace = 20;
+height = 74;
+verticalShift = 330;
+weight = -2;
+width = 80;
+};
+};
+width = 412;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (271,330);
+},
+{
+name = center;
+pos = (271,519);
+},
+{
+name = top;
+pos = (271,708);
+}
+);
+layerId = "B4464F9C-2DA6-418A-B3C4-1470167D4EB6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(507,330,l),
+(507,385,l),
+(84,385,l),
+(84,385,l),
+(478,615,l),
+(478,708,l),
+(60,708,l),
+(60,653,l),
+(436,653,l),
+(436,653,l),
+(41,423,l),
+(41,330,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+adjustSpace = 20;
+height = 74;
+verticalShift = 330;
+weight = -2;
+width = 80;
+};
+};
+width = 547;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (319,330);
+},
+{
+name = center;
+pos = (319,531);
+},
+{
+name = top;
+pos = (319,732);
+}
+);
+layerId = "9C3D73EE-3D01-4F34-8F18-5001540A34C7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(582,330,l),
+(582,462,l),
+(236,462,l),
+(236,462,l),
+(568,523,l),
+(568,732,l),
+(64,732,l),
+(64,600,l),
+(395,600,l),
+(395,600,l),
+(63,539,l),
+(63,330,l)
+);
+}
+);
+userData = {
+RMXScaler = {
+adjustSpace = 20;
+height = 74;
+verticalShift = 330;
+weight = -2;
+width = 80;
+};
+};
+width = 627;
+}
+);
+note = z;
+userData = {
+RMXScaler = {
+source = z;
+};
+};
+}

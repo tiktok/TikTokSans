@@ -1,0 +1,190 @@
+{
+export = 0;
+glyphname = "_cy-block.lc";
+layers = (
+{
+anchors = (
+{
+name = "_cy-block";
+pos = (305,145);
+}
+);
+layerId = "D0F786FD-D799-4DD4-8218-8DF09CBA4779";
+shapes = (
+{
+closed = 1;
+nodes = (
+(390,-120,l),
+(390,145,l),
+(210,145,l),
+(210,0,l),
+(220,0,l),
+(220,-120,l)
+);
+}
+);
+width = 600;
+},
+{
+anchors = (
+{
+name = "_cy-block";
+pos = (277,56);
+}
+);
+layerId = "E0044746-7B1A-4AF1-A08A-EDFF47B9B447";
+shapes = (
+{
+closed = 1;
+nodes = (
+(349,-120,l),
+(349,56,l),
+(261,56,l),
+(261,0,l),
+(291,0,l),
+(291,-120,l)
+);
+}
+);
+width = 600;
+},
+{
+anchors = (
+{
+name = "_cy-block";
+pos = (280,56);
+}
+);
+layerId = m008;
+shapes = (
+{
+closed = 1;
+nodes = (
+(350,-120,l),
+(350,56,l),
+(261,56,l),
+(261,0,l),
+(287,0,l),
+(287,-120,l)
+);
+}
+);
+width = 600;
+},
+{
+anchors = (
+{
+name = "_cy-block";
+pos = (317,160);
+}
+);
+layerId = "EAEE501F-808F-4F80-A534-C44A55AE9CF1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(402,-120,l),
+(402,160,l),
+(222,160,l),
+(222,0,l),
+(232,0,l),
+(232,-120,l)
+);
+}
+);
+width = 624;
+},
+{
+anchors = (
+{
+name = "_cy-block";
+pos = (214,51);
+}
+);
+layerId = "38794FDE-96C3-45FE-89A8-4F68FD88490C";
+shapes = (
+{
+closed = 1;
+nodes = (
+(268,-120,l),
+(268,52,l),
+(192,52,l),
+(192,0,l),
+(210,0,l),
+(210,-120,l)
+);
+}
+);
+width = 453;
+},
+{
+anchors = (
+{
+name = "_cy-block";
+pos = (268,150);
+}
+);
+layerId = "BD94C4B7-004C-4524-8669-6CB6D8067CD8";
+shapes = (
+{
+closed = 1;
+nodes = (
+(340,-120,l),
+(340,150,l),
+(174,150,l),
+(174,0,l),
+(180,0,l),
+(180,-120,l)
+);
+}
+);
+width = 518;
+},
+{
+anchors = (
+{
+name = "_cy-block";
+pos = (268,56);
+}
+);
+layerId = "B4464F9C-2DA6-418A-B3C4-1470167D4EB6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(362,-120,l),
+(362,56,l),
+(261,56,l),
+(261,0,l),
+(299,0,l),
+(299,-120,l)
+);
+}
+);
+width = 612;
+},
+{
+anchors = (
+{
+name = "_cy-block";
+pos = (333,196);
+}
+);
+layerId = "9C3D73EE-3D01-4F34-8F18-5001540A34C7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(434,-120,l),
+(434,184,l),
+(222,184,l),
+(222,0,l),
+(227,0,l),
+(227,-120,l)
+);
+}
+);
+width = 656;
+}
+);
+}

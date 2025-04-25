@@ -1,0 +1,177 @@
+{
+glyphname = guilsinglright;
+kernLeft = KO_guillemetright;
+kernRight = KO_guillemetright;
+layers = (
+{
+layerId = m008;
+shapes = (
+{
+closed = 1;
+nodes = (
+(144,66,l),
+(281,271,l),
+(144,476,l),
+(80,476,l),
+(238,241,l),
+(238,301,l),
+(80,66,l)
+);
+}
+);
+width = 361;
+},
+{
+layerId = "E0044746-7B1A-4AF1-A08A-EDFF47B9B447";
+shapes = (
+{
+closed = 1;
+nodes = (
+(162,76,l),
+(299,281,l),
+(162,486,l),
+(98,486,l),
+(256,251,l),
+(256,311,l),
+(98,76,l)
+);
+}
+);
+width = 397;
+},
+{
+layerId = "EAEE501F-808F-4F80-A534-C44A55AE9CF1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(215,66,l),
+(352,271,l),
+(215,476,l),
+(52,476,l),
+(210,241,l),
+(210,301,l),
+(52,66,l)
+);
+}
+);
+width = 404;
+},
+{
+layerId = "D0F786FD-D799-4DD4-8218-8DF09CBA4779";
+shapes = (
+{
+closed = 1;
+nodes = (
+(218,76,l),
+(355,281,l),
+(218,486,l),
+(58,486,l),
+(216,251,l),
+(216,311,l),
+(58,76,l)
+);
+}
+);
+width = 413;
+},
+{
+layerId = "38794FDE-96C3-45FE-89A8-4F68FD88490C";
+shapes = (
+{
+closed = 1;
+nodes = (
+(115,66,l),
+(218,271,l),
+(115,476,l),
+(57,476,l),
+(176,241,l),
+(176,301,l),
+(57,66,l)
+);
+}
+);
+width = 275;
+},
+{
+layerId = "BD94C4B7-004C-4524-8669-6CB6D8067CD8";
+shapes = (
+{
+closed = 1;
+nodes = (
+(188,66,l),
+(305,271,l),
+(188,476,l),
+(38,476,l),
+(168,241,l),
+(168,301,l),
+(38,66,l)
+);
+}
+);
+width = 343;
+},
+{
+layerId = "B4464F9C-2DA6-418A-B3C4-1470167D4EB6";
+metricLeft = "=|guilsinglleft";
+metricRight = "=|guilsinglleft";
+shapes = (
+{
+closed = 1;
+nodes = (
+(155,66,l),
+(351,271,l),
+(155,476,l),
+(80,476,l),
+(306,241,l),
+(306,301,l),
+(80,66,l)
+);
+}
+);
+width = 431;
+},
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(264,66,l),
+(460,271,l),
+(264,476,l),
+(53,476,l),
+(280,241,l),
+(280,301,l),
+(53,66,l)
+);
+}
+);
+};
+layerId = "9C3D73EE-3D01-4F34-8F18-5001540A34C7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(264,66,l),
+(460,271,l),
+(264,476,l),
+(52,476,l),
+(279,241,l),
+(279,301,l),
+(52,66,l)
+);
+}
+);
+width = 512;
+}
+);
+note = guilsinglright;
+unicode = 8250;
+userData = {
+KernOnSpecialSpacing = {
+L = quotes;
+R = quotes;
+};
+};
+}

@@ -1,0 +1,211 @@
+{
+glyphname = commaturnedabovecomb.case;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (99,705);
+},
+{
+name = top;
+pos = (99,905);
+}
+);
+layerId = m008;
+shapes = (
+{
+closed = 1;
+nodes = (
+(98,905,l),
+(50,779,l),
+(118,779,l),
+(148,905,l)
+);
+}
+);
+width = 198;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (108,705);
+},
+{
+name = top;
+pos = (108,925);
+}
+);
+layerId = "E0044746-7B1A-4AF1-A08A-EDFF47B9B447";
+shapes = (
+{
+closed = 1;
+nodes = (
+(116,925,l),
+(50,764,l),
+(125,764,l),
+(166,925,l)
+);
+}
+);
+width = 216;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (156,705);
+},
+{
+name = top;
+pos = (156,900);
+}
+);
+layerId = "EAEE501F-808F-4F80-A534-C44A55AE9CF1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(128,900,l),
+(50,774,l),
+(228,774,l),
+(261,900,l)
+);
+}
+);
+width = 311;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (150,705);
+},
+{
+name = top;
+pos = (150,897);
+}
+);
+layerId = "D0F786FD-D799-4DD4-8218-8DF09CBA4779";
+shapes = (
+{
+closed = 1;
+nodes = (
+(126,897,l),
+(50,759,l),
+(201,759,l),
+(250,897,l)
+);
+}
+);
+width = 300;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (77,705);
+},
+{
+name = top;
+pos = (77,905);
+}
+);
+layerId = "38794FDE-96C3-45FE-89A8-4F68FD88490C";
+shapes = (
+{
+closed = 1;
+nodes = (
+(74,905,l),
+(35,779,l),
+(97,779,l),
+(120,905,l)
+);
+}
+);
+width = 155;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (140,705);
+},
+{
+name = top;
+pos = (140,900);
+}
+);
+layerId = "BD94C4B7-004C-4524-8669-6CB6D8067CD8";
+shapes = (
+{
+closed = 1;
+nodes = (
+(112,900,l),
+(42,774,l),
+(210,774,l),
+(238,900,l)
+);
+}
+);
+width = 280;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (107,705);
+},
+{
+name = top;
+pos = (107,905);
+}
+);
+layerId = "B4464F9C-2DA6-418A-B3C4-1470167D4EB6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(115,905,l),
+(50,779,l),
+(119,779,l),
+(165,905,l)
+);
+}
+);
+width = 215;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (176,705);
+},
+{
+name = top;
+pos = (176,898);
+}
+);
+layerId = "9C3D73EE-3D01-4F34-8F18-5001540A34C7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(158,898,l),
+(40,772,l),
+(256,772,l),
+(320,898,l)
+);
+}
+);
+width = 350;
+}
+);
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
+}

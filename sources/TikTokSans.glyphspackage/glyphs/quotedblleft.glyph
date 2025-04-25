@@ -1,0 +1,210 @@
+{
+glyphname = quotedblleft;
+kernLeft = KO_quotedblleft;
+kernRight = KO_quotedblleft;
+layers = (
+{
+layerId = m008;
+shapes = (
+{
+closed = 1;
+nodes = (
+(157,722,l),
+(75,453,l),
+(148,453,l),
+(211,722,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(317,722,l),
+(235,453,l),
+(308,453,l),
+(371,722,l)
+);
+}
+);
+width = 446;
+},
+{
+layerId = "E0044746-7B1A-4AF1-A08A-EDFF47B9B447";
+shapes = (
+{
+closed = 1;
+nodes = (
+(172,722,l),
+(90,453,l),
+(158,453,l),
+(222,722,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(362,722,l),
+(280,453,l),
+(348,453,l),
+(412,722,l)
+);
+}
+);
+width = 502;
+},
+{
+layerId = "EAEE501F-808F-4F80-A534-C44A55AE9CF1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(147,722,l),
+(43,414,l),
+(224,414,l),
+(295,722,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(389,722,l),
+(285,414,l),
+(466,414,l),
+(537,722,l)
+);
+}
+);
+width = 580;
+},
+{
+layerId = "D0F786FD-D799-4DD4-8218-8DF09CBA4779";
+shapes = (
+{
+closed = 1;
+nodes = (
+(170,722,l),
+(72,414,l),
+(255,414,l),
+(320,722,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(448,722,l),
+(350,414,l),
+(533,414,l),
+(598,722,l)
+);
+}
+);
+width = 670;
+},
+{
+layerId = "38794FDE-96C3-45FE-89A8-4F68FD88490C";
+shapes = (
+{
+closed = 1;
+nodes = (
+(119,722,l),
+(52,455,l),
+(117,455,l),
+(167,722,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(247,722,l),
+(180,455,l),
+(245,455,l),
+(295,722,l)
+);
+}
+);
+width = 347;
+},
+{
+layerId = "BD94C4B7-004C-4524-8669-6CB6D8067CD8";
+shapes = (
+{
+closed = 1;
+nodes = (
+(119,722,l),
+(30,418,l),
+(200,418,l),
+(260,722,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(334,722,l),
+(245,418,l),
+(415,418,l),
+(475,722,l)
+);
+}
+);
+width = 505;
+},
+{
+layerId = "B4464F9C-2DA6-418A-B3C4-1470167D4EB6";
+metricLeft = "=|period";
+metricRight = "=|period";
+shapes = (
+{
+closed = 1;
+nodes = (
+(177,722,l),
+(75,453,l),
+(153,453,l),
+(231,722,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(374,722,l),
+(272,453,l),
+(350,453,l),
+(428,722,l)
+);
+}
+);
+width = 503;
+},
+{
+layerId = "9C3D73EE-3D01-4F34-8F18-5001540A34C7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(189,722,l),
+(43,400,l),
+(268,400,l),
+(371,722,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(494,722,l),
+(348,400,l),
+(573,400,l),
+(676,722,l)
+);
+}
+);
+width = 719;
+}
+);
+note = quotedblleft;
+unicode = 8220;
+userData = {
+KernOnName = quotedblleft;
+KernOnSpecialSpacing = {
+L = quotes;
+R = quotes;
+};
+};
+}

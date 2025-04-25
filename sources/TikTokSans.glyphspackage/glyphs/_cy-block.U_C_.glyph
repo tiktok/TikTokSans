@@ -1,0 +1,190 @@
+{
+export = 0;
+glyphname = "_cy-block.UC";
+layers = (
+{
+anchors = (
+{
+name = "_cy-block.UC";
+pos = (205,152);
+}
+);
+layerId = "D0F786FD-D799-4DD4-8218-8DF09CBA4779";
+shapes = (
+{
+closed = 1;
+nodes = (
+(302,-130,l),
+(302,152,l),
+(89,152,l),
+(89,0,l),
+(122,0,l),
+(122,-130,l)
+);
+}
+);
+width = 600;
+},
+{
+anchors = (
+{
+name = "_cy-block.UC";
+pos = (111,60);
+}
+);
+layerId = "E0044746-7B1A-4AF1-A08A-EDFF47B9B447";
+shapes = (
+{
+closed = 1;
+nodes = (
+(204,-130,l),
+(204,60,l),
+(89,60,l),
+(89,0,l),
+(139,0,l),
+(139,-130,l)
+);
+}
+);
+width = 600;
+},
+{
+anchors = (
+{
+name = "_cy-block.UC";
+pos = (110,60);
+}
+);
+layerId = m008;
+shapes = (
+{
+closed = 1;
+nodes = (
+(203,-130,l),
+(203,60,l),
+(90,60,l),
+(90,0,l),
+(138,0,l),
+(138,-130,l)
+);
+}
+);
+width = 600;
+},
+{
+anchors = (
+{
+name = "_cy-block.UC";
+pos = (215,171);
+}
+);
+layerId = "EAEE501F-808F-4F80-A534-C44A55AE9CF1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(308,-130,l),
+(308,171,l),
+(90,171,l),
+(90,0,l),
+(119,0,l),
+(119,-130,l)
+);
+}
+);
+width = 385;
+},
+{
+anchors = (
+{
+name = "_cy-block.UC";
+pos = (93,55);
+}
+);
+layerId = "38794FDE-96C3-45FE-89A8-4F68FD88490C";
+shapes = (
+{
+closed = 1;
+nodes = (
+(163,-130,l),
+(163,55,l),
+(67,55,l),
+(67,0,l),
+(102,0,l),
+(102,-130,l)
+);
+}
+);
+width = 429;
+},
+{
+anchors = (
+{
+name = "_cy-block.UC";
+pos = (197,160);
+}
+);
+layerId = "BD94C4B7-004C-4524-8669-6CB6D8067CD8";
+shapes = (
+{
+closed = 1;
+nodes = (
+(274,-130,l),
+(274,160,l),
+(74,160,l),
+(74,0,l),
+(104,0,l),
+(104,-130,l)
+);
+}
+);
+width = 276;
+},
+{
+anchors = (
+{
+name = "_cy-block.UC";
+pos = (118,60);
+}
+);
+layerId = "B4464F9C-2DA6-418A-B3C4-1470167D4EB6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(228,-130,l),
+(228,60,l),
+(90,60,l),
+(90,0,l),
+(163,0,l),
+(163,-130,l)
+);
+}
+);
+width = 625;
+},
+{
+anchors = (
+{
+name = "_cy-block.UC";
+pos = (247,210);
+}
+);
+layerId = "9C3D73EE-3D01-4F34-8F18-5001540A34C7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(357,-130,l),
+(357,200,l),
+(90,200,l),
+(90,0,l),
+(124,0,l),
+(124,-130,l)
+);
+}
+);
+width = 422;
+}
+);
+}

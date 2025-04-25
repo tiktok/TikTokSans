@@ -1,0 +1,150 @@
+{
+glyphname = comma;
+kernLeft = KO_comma;
+kernRight = KO_comma;
+layers = (
+{
+layerId = m008;
+shapes = (
+{
+closed = 1;
+nodes = (
+(98,-184,l),
+(185,95,l),
+(107,95,l),
+(45,-184,l)
+);
+}
+);
+width = 263;
+},
+{
+layerId = "E0044746-7B1A-4AF1-A08A-EDFF47B9B447";
+shapes = (
+{
+closed = 1;
+nodes = (
+(127,-184,l),
+(214,95,l),
+(140,95,l),
+(78,-184,l)
+);
+}
+);
+width = 292;
+},
+{
+layerId = "D0F786FD-D799-4DD4-8218-8DF09CBA4779";
+shapes = (
+{
+closed = 1;
+nodes = (
+(183,-196,l),
+(290,141,l),
+(113,141,l),
+(40,-196,l)
+);
+}
+);
+width = 337;
+},
+{
+layerId = "EAEE501F-808F-4F80-A534-C44A55AE9CF1";
+name = "TikTok Display Black";
+shapes = (
+{
+closed = 1;
+nodes = (
+(152,-195,l),
+(265,141,l),
+(78,141,l),
+(5,-195,l)
+);
+}
+);
+width = 294;
+},
+{
+layerId = "38794FDE-96C3-45FE-89A8-4F68FD88490C";
+shapes = (
+{
+closed = 1;
+nodes = (
+(74,-184,l),
+(147,93,l),
+(77,93,l),
+(24,-184,l)
+);
+}
+);
+width = 201;
+},
+{
+layerId = "BD94C4B7-004C-4524-8669-6CB6D8067CD8";
+name = "TikTok Display Black";
+shapes = (
+{
+closed = 1;
+nodes = (
+(144,-194,l),
+(241,136,l),
+(66,136,l),
+(5,-194,l)
+);
+}
+);
+width = 250;
+},
+{
+layerId = "B4464F9C-2DA6-418A-B3C4-1470167D4EB6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(99,-184,l),
+(203,95,l),
+(120,95,l),
+(45,-184,l)
+);
+}
+);
+width = 281;
+},
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(185,-199,l),
+(343,157,l),
+(110,157,l),
+(5,-199,l)
+);
+}
+);
+};
+layerId = "9C3D73EE-3D01-4F34-8F18-5001540A34C7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(181,-200,l),
+(340,157,l),
+(110,157,l),
+(5,-200,l)
+);
+}
+);
+width = 372;
+}
+);
+note = comma;
+unicode = 44;
+userData = {
+KernOnSpecialSpacing = {
+L = period;
+R = period;
+};
+};
+}

@@ -1,0 +1,608 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="5.0">
+    <axes elidedfallbackname="Regular">
+        <axis tag="opsz" name="Optical size" minimum="12" maximum="36" default="36">
+            <map input="12" output="1.000" />
+            <map input="14" output="1.192" />
+            <map input="16" output="1.358" />
+            <map input="18" output="1.500" />
+            <map input="20" output="1.620" />
+            <map input="22" output="1.719" />
+            <map input="24" output="1.799" />
+            <map input="26" output="1.863" />
+            <map input="28" output="1.912" />
+            <map input="30" output="1.949" />
+            <map input="32" output="1.974" />
+            <map input="34" output="1.991" />
+            <map input="36" output="2.000" />
+            <labels>
+                <label uservalue="12" name="12pt" />
+                <label uservalue="16" name="16pt" />
+                <label uservalue="36" name="36pt" />
+            </labels>
+        </axis>
+        <axis tag="wdth" name="Width" minimum="75" maximum="150" default="100">
+            <labels>
+                <label uservalue="75" name="Condensed" />
+                <label uservalue="100" name="Normal" elidable="true" />
+                <label uservalue="150" name="ExtraExpanded" />
+            </labels>
+        </axis>
+        <axis tag="wght" name="Weight" minimum="300" maximum="900" default="300">
+            <map input="300" output="65" />
+            <map input="400" output="85" />
+            <map input="500" output="107" />
+            <map input="600" output="124" />
+            <map input="700" output="148" />
+            <map input="800" output="165" />
+            <map input="900" output="180" />
+            <labels>
+                <label uservalue="300" name="Light" />
+                <label uservalue="400" name="Regular" linkeduservalue="700" elidable="true" />
+                <label uservalue="500" name="Medium" />
+                <label uservalue="600" name="SemiBold" />
+                <label uservalue="700" name="Bold" />
+                <label uservalue="800" name="ExtraBold" />
+                <label uservalue="900" name="Black" />
+            </labels>
+        </axis>
+        <axis tag="slnt" name="Slant" minimum="-6" maximum="0" default="0">
+            <labels>
+                <label uservalue="0" name="Default" linkeduservalue="-6" elidable="true" />
+                <label uservalue="-6" name="Italic"/>
+            </labels>
+        </axis>
+    </axes>
+    <rules>
+        <rule name="BRACKET.Optical size_1_1.5.Weight_115_180">
+            <conditionset>
+                <condition name="Weight" minimum="115" maximum="180" />
+                <condition name="Optical size" minimum="1" maximum="1.5" />
+            </conditionset>
+            <sub name="Q" with="Q.BRACKET.varAlt01" />
+        </rule>
+    </rules>
+    <sources>
+        <!-- ROMAN SOURCES -->
+        <!-- DISPLAY -->
+        <!-- Display Normal -->
+        <source filename="build/TikTokSans-Light.ufo" name="TikTok Sans Light" familyname="TikTok Sans" stylename="Light">
+            <lib copy="1" />
+            <groups copy="1" />
+            <features copy="1" />
+            <info copy="1" />
+            <location>
+                <dimension name="Weight" xvalue="65" />
+                <dimension name="Optical size" xvalue="2" />
+                <dimension name="Slant" xvalue="0" />
+                <dimension name="Width" xvalue="100" />
+            </location>
+        </source>
+        <source filename="build/TikTokSans-Light.ufo" name="TikTok Sans Light {148, 2, 0, 100}" layer="{148, 2, 100}">
+            <location>
+                <dimension name="Weight" xvalue="148" />
+                <dimension name="Optical size" xvalue="2" />
+                <dimension name="Slant" xvalue="0" />
+                <dimension name="Width" xvalue="100" />
+            </location>
+        </source>
+        <source filename="build/TikTokSans-Black.ufo" name="TikTok Sans Black" familyname="TikTok Sans" stylename="Black">
+            <location>
+                <dimension name="Weight" xvalue="180" />
+                <dimension name="Optical size" xvalue="2" />
+                <dimension name="Slant" xvalue="0" />
+                <dimension name="Width" xvalue="100" />
+            </location>
+        </source>
+        <!--  Condensed -->
+        <source filename="build/TikTokSans-LightCd.ufo" name="TikTok Sans Light Cd" familyname="TikTok Sans" stylename="Light Cd">
+            <location>
+                <dimension name="Weight" xvalue="65" />
+                <dimension name="Optical size" xvalue="2" />
+                <dimension name="Slant" xvalue="0" />
+                <dimension name="Width" xvalue="75" />
+            </location>
+        </source>
+        <source filename="build/TikTokSans-BlackCd.ufo" name="TikTok Sans Black Cd" familyname="TikTok Sans" stylename="Black Cd">
+            <location>
+                <dimension name="Weight" xvalue="180" />
+                <dimension name="Optical size" xvalue="2" />
+                <dimension name="Slant" xvalue="0" />
+                <dimension name="Width" xvalue="75" />
+            </location>
+        </source>
+        <!--  Extended -->
+        <source filename="build/TikTokSans-LightExt.ufo" name="TikTok Sans Light Ext" familyname="TikTok Sans" stylename="Light Ext">
+            <location>
+                <dimension name="Weight" xvalue="65" />
+                <dimension name="Optical size" xvalue="2" />
+                <dimension name="Slant" xvalue="0" />
+                <dimension name="Width" xvalue="150" />
+            </location>
+        </source>
+        <source filename="build/TikTokSans-LightExt.ufo" name="TikTok Sans Light Ext {148, 2, 0, 150}" layer="{148, 2, 150}">
+            <location>
+                <dimension name="Weight" xvalue="148" />
+                <dimension name="Optical size" xvalue="2" />
+                <dimension name="Slant" xvalue="0" />
+                <dimension name="Width" xvalue="150" />
+            </location>
+        </source>
+        <source filename="build/TikTokSans-BlackExt.ufo" name="TikTok Sans Black Ext" familyname="TikTok Sans" stylename="Black Ext">
+            <location>
+                <dimension name="Weight" xvalue="180" />
+                <dimension name="Optical size" xvalue="2" />
+                <dimension name="Slant" xvalue="0" />
+                <dimension name="Width" xvalue="150" />
+            </location>
+        </source>
+        <!-- TEXT -->
+        <!-- Text Normal -->
+        <source filename="build/TikTokSans-TextLight.ufo" name="TikTok Sans Text Light" familyname="TikTok Sans Text" stylename="Text Light">
+            <location>
+                <dimension name="Weight" xvalue="65" />
+                <dimension name="Optical size" xvalue="1" />
+                <dimension name="Slant" xvalue="0" />
+                <dimension name="Width" xvalue="100" />
+            </location>
+        </source>
+        <source filename="build/TikTokSans-TextLight.ufo" name="TikTok Sans Text Light {148, 1, 100}" layer="{148, 1, 100}">
+            <location>
+                <dimension name="Weight" xvalue="148" />
+                <dimension name="Optical size" xvalue="1" />
+                <dimension name="Slant" xvalue="0" />
+                <dimension name="Width" xvalue="100" />
+            </location>
+        </source>
+        <source filename="build/TikTokSans-TextBlack.ufo" name="TikTok Sans Text Black" familyname="TikTok Sans Text" stylename="Text Black">
+            <location>
+                <dimension name="Weight" xvalue="180" />
+                <dimension name="Optical size" xvalue="1" />
+                <dimension name="Slant" xvalue="0" />
+                <dimension name="Width" xvalue="100" />
+            </location>
+        </source>
+        <!-- OBLIQUE SOURCES -->
+        <!-- DISPLAY -->
+        <!-- Display Normal Oblique -->
+        <source filename="build/TikTokSans-LightOblique.ufo" name="TikTok Sans Light Oblique" familyname="TikTok Sans" stylename="Light Oblique">
+            <location>
+                <dimension name="Weight" xvalue="65" />
+                <dimension name="Optical size" xvalue="2" />
+                <dimension name="Slant" xvalue="-6" />
+                <dimension name="Width" xvalue="100" />
+            </location>
+        </source>
+        <source filename="build/TikTokSans-LightOblique.ufo" name="TikTok Sans Light {148, 2, 100}" layer="{148, 2, 100}">
+            <location>
+                <dimension name="Weight" xvalue="148" />
+                <dimension name="Optical size" xvalue="2" />
+                <dimension name="Slant" xvalue="-6" />
+                <dimension name="Width" xvalue="100" />
+            </location>
+        </source>
+        <source filename="build/TikTokSans-BlackOblique.ufo" name="TikTok Sans Black Oblique" familyname="TikTok Sans" stylename="Black Oblique">
+            <location>
+                <dimension name="Weight" xvalue="180" />
+                <dimension name="Optical size" xvalue="2" />
+                <dimension name="Slant" xvalue="-6" />
+                <dimension name="Width" xvalue="100" />
+            </location>
+        </source>
+        <!--  Condensed Oblique -->
+        <source filename="build/TikTokSans-LightCdOblique.ufo" name="TikTok Sans Light Cd Oblique" familyname="TikTok Sans" stylename="Light Cd Oblique">
+            <location>
+                <dimension name="Weight" xvalue="65"/>
+                <dimension name="Optical size" xvalue="2"/>
+                <dimension name="Slant" xvalue="-6"/>
+                <dimension name="Width" xvalue="75"/>
+            </location>
+        </source>
+        <source filename="build/TikTokSans-BlackCdOblique.ufo" name="TikTok Sans Black Cd Oblique" familyname="TikTok Sans" stylename="Black Cd Oblique">
+            <location>
+                <dimension name="Weight" xvalue="180" />
+                <dimension name="Optical size" xvalue="2" />
+                <dimension name="Slant" xvalue="-6" />
+                <dimension name="Width" xvalue="75" />
+            </location>
+        </source>
+        <!--  Extended Oblique-->
+        <source filename="build/TikTokSans-LightExtOblique.ufo" name="TikTok Sans Light Ext Oblique" familyname="TikTok Sans" stylename="Light Ext Oblique">
+            <location>
+                <dimension name="Weight" xvalue="65"/>
+                <dimension name="Optical size" xvalue="2"/>
+                <dimension name="Slant" xvalue="-6"/>
+                <dimension name="Width" xvalue="150"/>
+            </location>
+        </source>
+        <source filename="build/TikTokSans-LightExtOblique.ufo" name="TikTok Sans Light Ext Oblique {148, 2, 100}" layer="{148, 2, 150}">
+            <location>
+                <dimension name="Weight" xvalue="148"/>
+                <dimension name="Optical size" xvalue="2"/>
+                <dimension name="Slant" xvalue="-6"/>
+                <dimension name="Width" xvalue="150"/>
+            </location>
+        </source>
+        <!-- 
+        <source filename="build/TikTokSans-BlackExtOblique.ufo" name="TikTok Sans Black Ext Oblique" familyname="TikTok Sans" stylename="Black Ext Oblique">
+            <location>
+                <dimension name="Weight" xvalue="180" />
+                <dimension name="Optical size" xvalue="2" />
+                <dimension name="Slant" xvalue="-6" />
+                <dimension name="Width" xvalue="150" />
+            </location>
+        </source> -->
+        <!-- TEXT OBLIQUE SOURCES -->
+        <!-- Text Normal Oblique-->
+        <source filename="build/TikTokSans-TextLightOblique.ufo" name="TikTok Sans Text Light Oblique" familyname="TikTok Sans Text" stylename="Text Light Oblique">
+            <location>
+                <dimension name="Weight" xvalue="65"/>
+                <dimension name="Optical size" xvalue="1"/>
+                <dimension name="Slant" xvalue="-6"/>
+                <dimension name="Width" xvalue="100"/>
+            </location>
+        </source>
+        
+        <source filename="build/TikTokSans-TextLightOblique.ufo" name="TikTok Sans Text Light {148, 1, 100}" layer="{148, 1, 100}">
+            <location>
+                <dimension name="Weight" xvalue="148"/>
+                <dimension name="Optical size" xvalue="1"/>
+                <dimension name="Slant" xvalue="-6"/>
+                <dimension name="Width" xvalue="100"/>
+            </location>
+        </source>
+        <!-- 
+        <source filename="build/TikTokSans-TextBlackOblique.ufo" name="TikTok Sans Text Black Oblique" familyname="TikTok Sans Text" stylename="Text Black Oblique">
+            <location>
+                <dimension name="Weight" xvalue="180" />
+                <dimension name="Optical size" xvalue="1" />
+                <dimension name="Slant" xvalue="-6" />
+                <dimension name="Width" xvalue="100" />
+            </location>
+        </source> -->
+    </sources>
+    <instances>
+        <!-- 36pt -->
+        <instance name="TikTok Sans 36pt Light" familyname="TikTok Sans" stylename="Light" postscriptfontname="TikTokSans36pt-Light" filename="TikTokSans36pt-Light.ufo" stylemapfamilyname="TikTok Sans 36pt Light" stylemapstylename="regular">
+            <location>
+                <dimension name="Weight" xvalue="65" />
+                <dimension name="Optical size" xvalue="2" />
+                <dimension name="Slant" xvalue="0" />
+                <dimension name="Width" xvalue="100" />
+            </location>
+        </instance>
+        <instance name="TikTok Sans 36pt Regular" familyname="TikTok Sans" stylename="Regular" postscriptfontname="TikTokSans36pt-Regular" filename="TikTokSans36pt-Regular.ufo" stylemapfamilyname="TikTok Sans" stylemapstylename="regular">
+            <location>
+                <dimension name="Weight" xvalue="85" />
+                <dimension name="Optical size" xvalue="2" />
+                <dimension name="Slant" xvalue="0" />
+                <dimension name="Width" xvalue="100" />
+            </location>
+        </instance>
+        <instance name="TikTok Sans 36pt Medium" familyname="TikTok Sans" stylename="Medium" postscriptfontname="TikTokSans36pt-Medium" filename="TikTokSans36pt-Medium.ufo" stylemapfamilyname="TikTok Sans 36pt Medium" stylemapstylename="regular">
+            <location>
+                <dimension name="Weight" xvalue="107" />
+                <dimension name="Optical size" xvalue="2" />
+                <dimension name="Slant" xvalue="0" />
+                <dimension name="Width" xvalue="100" />
+            </location>
+        </instance>
+        <instance name="TikTok Sans 36pt SemiBold" familyname="TikTok Sans" stylename="SemiBold" postscriptfontname="TikTokSans36pt-SemiBold" filename="TikTokSans36pt-SemiBold.ufo" stylemapfamilyname="TikTok Sans 36pt SemiBold" stylemapstylename="regular">
+            <location>
+                <dimension name="Weight" xvalue="124" />
+                <dimension name="Optical size" xvalue="2" />
+                <dimension name="Slant" xvalue="0" />
+                <dimension name="Width" xvalue="100" />
+            </location>
+        </instance>
+        <instance name="TikTok Sans 36pt Bold" familyname="TikTok Sans" stylename="Bold" postscriptfontname="TikTokSans36pt-Bold" filename="TikTokSans36pt-Bold.ufo" stylemapfamilyname="TikTok Sans" stylemapstylename="bold">
+            <location>
+                <dimension name="Weight" xvalue="148" />
+                <dimension name="Optical size" xvalue="2" />
+                <dimension name="Slant" xvalue="0" />
+                <dimension name="Width" xvalue="100" />
+            </location>
+        </instance>
+        <instance name="TikTok Sans 36pt ExtraBold" familyname="TikTok Sans" stylename="ExtraBold" postscriptfontname="TikTokSans36pt-ExtraBold" filename="TikTokSans36pt-ExtraBold.ufo" stylemapfamilyname="TikTok Sans 36pt ExtraBold" stylemapstylename="regular">
+            <location>
+                <dimension name="Weight" xvalue="165" />
+                <dimension name="Optical size" xvalue="2" />
+                <dimension name="Slant" xvalue="0" />
+                <dimension name="Width" xvalue="100" />
+            </location>
+        </instance>
+        <instance name="TikTok Sans 36pt Black" familyname="TikTok Sans" stylename="Black" postscriptfontname="TikTokSans36pt-Black" filename="TikTokSans36pt-Black.ufo" stylemapfamilyname="TikTok Sans 36pt Black" stylemapstylename="regular">
+            <location>
+                <dimension name="Weight" xvalue="180" />
+                <dimension name="Optical size" xvalue="2" />
+                <dimension name="Slant" xvalue="0" />
+                <dimension name="Width" xvalue="100" />
+            </location>
+        </instance>
+        <!-- DISPLAY Italic -->
+        <instance name="TikTok Sans 36pt Light Italic" familyname="TikTok Sans" stylename="Light Italic" postscriptfontname="TikTokSans36pt-LightItalic" filename="TikTokSans36pt-LightItalic.ufo" stylemapfamilyname="TikTok Sans 36pt Light" stylemapstylename="italic">
+            <location>
+                <dimension name="Weight" xvalue="65" />
+                <dimension name="Optical size" xvalue="2" />
+                <dimension name="Slant" xvalue="-6" />
+                <dimension name="Width" xvalue="100" />
+            </location>
+        </instance>
+        <instance name="TikTok Sans 36pt Regular Italic" familyname="TikTok Sans" stylename="Italic" postscriptfontname="TikTokSans36pt-Italic" filename="TikTokSans36pt-Italic.ufo" stylemapfamilyname="TikTok Sans" stylemapstylename="italic">
+            <location>
+                <dimension name="Weight" xvalue="85" />
+                <dimension name="Optical size" xvalue="2" />
+                <dimension name="Slant" xvalue="-6" />
+                <dimension name="Width" xvalue="100" />
+            </location>
+        </instance>
+        <instance name="TikTok Sans 36pt Medium Italic" familyname="TikTok Sans" stylename="Medium Italic" postscriptfontname="TikTokSans36pt-MediumItalic" filename="TikTokSans36pt-MediumItalic.ufo" stylemapfamilyname="TikTok Sans 36pt Medium" stylemapstylename="italic">
+            <location>
+                <dimension name="Weight" xvalue="107" />
+                <dimension name="Optical size" xvalue="2" />
+                <dimension name="Slant" xvalue="-6" />
+                <dimension name="Width" xvalue="100" />
+            </location>
+        </instance>
+        <instance name="TikTok Sans 36pt SemiBold Italic" familyname="TikTok Sans" stylename="SemiBold Italic" postscriptfontname="TikTokSans36pt-SemiBoldItalic" filename="TikTokSans36pt-SemiBoldItalic.ufo" stylemapfamilyname="TikTok Sans 36pt SemiBold" stylemapstylename="italic">
+            <location>
+                <dimension name="Weight" xvalue="124" />
+                <dimension name="Optical size" xvalue="2" />
+                <dimension name="Slant" xvalue="-6" />
+                <dimension name="Width" xvalue="100" />
+            </location>
+        </instance>
+        <instance name="TikTok Sans 36pt Bold Italic" familyname="TikTok Sans" stylename="Bold Italic" postscriptfontname="TikTokSans36pt-BoldItalic" filename="TikTokSans36pt-BoldItalic.ufo" stylemapfamilyname="TikTok Sans" stylemapstylename="bold italic">
+            <location>
+                <dimension name="Weight" xvalue="148" />
+                <dimension name="Optical size" xvalue="2" />
+                <dimension name="Slant" xvalue="-6" />
+                <dimension name="Width" xvalue="100" />
+            </location>
+        </instance>
+        <instance name="TikTok Sans 36pt ExtraBold Italic" familyname="TikTok Sans" stylename="ExtraBold Italic" postscriptfontname="TikTokSans36pt-ExtraBoldItalic" filename="TikTokSans36pt-ExtraBoldItalic.ufo" stylemapfamilyname="TikTok Sans 36pt ExtraBold" stylemapstylename="italic">
+            <location>
+                <dimension name="Weight" xvalue="165" />
+                <dimension name="Optical size" xvalue="2" />
+                <dimension name="Slant" xvalue="-6" />
+                <dimension name="Width" xvalue="100" />
+            </location>
+        </instance>
+        <instance name="TikTok Sans 36pt Black Italic" familyname="TikTok Sans" stylename="Black Italic" postscriptfontname="TikTokSans36pt-BlackItalic" filename="TikTokSans36pt-BlackItalic.ufo" stylemapfamilyname="TikTok Sans 36pt Black" stylemapstylename="italic">
+            <location>
+                <dimension name="Weight" xvalue="180" />
+                <dimension name="Optical size" xvalue="2" />
+                <dimension name="Slant" xvalue="-6" />
+                <dimension name="Width" xvalue="100" />
+            </location>
+        </instance>
+        <!-- 16pt -->
+        <instance name="TikTok Sans 16pt Light" familyname="TikTok Sans 16pt" stylename="Light" postscriptfontname="TikTokSans16pt-Light" filename="TikTokSans16pt-Light.ufo" stylemapfamilyname="TikTok Sans 16pt Light" stylemapstylename="regular">
+            <location>
+                <dimension name="Weight" xvalue="65" />
+                <dimension name="Optical size" xvalue="1.358" />
+                <dimension name="Slant" xvalue="0" />
+                <dimension name="Width" xvalue="100" />
+            </location>
+        </instance>
+        <instance name="TikTok Sans 16pt Regular" familyname="TikTok Sans 16pt" stylename="Regular" postscriptfontname="TikTokSans16pt-Regular" filename="TikTokSans16pt-Regular.ufo" stylemapfamilyname="TikTok Sans 16pt" stylemapstylename="regular">
+            <location>
+                <dimension name="Weight" xvalue="85" />
+                <dimension name="Optical size" xvalue="1.358" />
+                <dimension name="Slant" xvalue="0" />
+                <dimension name="Width" xvalue="100" />
+            </location>
+        </instance>
+        <instance name="TikTok Sans 16pt Medium" familyname="TikTok Sans 16pt" stylename="Medium" postscriptfontname="TikTokSans16pt-Medium" filename="TikTokSans16pt-Medium.ufo" stylemapfamilyname="TikTok Sans 16pt Medium" stylemapstylename="regular">
+            <location>
+                <dimension name="Weight" xvalue="107" />
+                <dimension name="Optical size" xvalue="1.358" />
+                <dimension name="Slant" xvalue="0" />
+                <dimension name="Width" xvalue="100" />
+            </location>
+        </instance>
+        <instance name="TikTok Sans 16pt SemiBold" familyname="TikTok Sans 16pt" stylename="SemiBold" postscriptfontname="TikTokSans16pt-SemiBold" filename="TikTokSans16pt-SemiBold.ufo" stylemapfamilyname="TikTok Sans 16pt SemiBold" stylemapstylename="regular">
+            <location>
+                <dimension name="Weight" xvalue="124" />
+                <dimension name="Optical size" xvalue="1.358" />
+                <dimension name="Slant" xvalue="0" />
+                <dimension name="Width" xvalue="100" />
+            </location>
+        </instance>
+        <instance name="TikTok Sans 16pt Bold" familyname="TikTok Sans 16pt" stylename="Bold" postscriptfontname="TikTokSans16pt-Bold" filename="TikTokSans16pt-Bold.ufo" stylemapfamilyname="TikTok Sans 16pt" stylemapstylename="bold">
+            <location>
+                <dimension name="Weight" xvalue="148" />
+                <dimension name="Optical size" xvalue="1.358" />
+                <dimension name="Slant" xvalue="0" />
+                <dimension name="Width" xvalue="100" />
+            </location>
+        </instance>
+        <instance name="TikTok Sans 16pt ExtraBold" familyname="TikTok Sans 16pt" stylename="ExtraBold" postscriptfontname="TikTokSans16pt-ExtraBold" filename="TikTokSans16pt-ExtraBold.ufo" stylemapfamilyname="TikTok Sans 16pt ExtraBold" stylemapstylename="regular">
+            <location>
+                <dimension name="Weight" xvalue="165" />
+                <dimension name="Optical size" xvalue="1.358" />
+                <dimension name="Slant" xvalue="0" />
+                <dimension name="Width" xvalue="100" />
+            </location>
+        </instance>
+        <instance name="TikTok Sans 16pt Black" familyname="TikTok Sans 16pt" stylename="Black" postscriptfontname="TikTokSans16pt-Black" filename="TikTokSans16pt-Black.ufo" stylemapfamilyname="TikTok Sans 16pt Black" stylemapstylename="regular">
+            <location>
+                <dimension name="Weight" xvalue="180" />
+                <dimension name="Optical size" xvalue="1.358" />
+                <dimension name="Slant" xvalue="0" />
+                <dimension name="Width" xvalue="100" />
+            </location>
+        </instance>
+        <!-- 16pt Italic -->
+        <instance name="TikTok Sans 16pt Light Italic" familyname="TikTok Sans 16pt" stylename="Light Italic" postscriptfontname="TikTokSans16pt-LightItalic" filename="TikTokSans16pt-LightItalic.ufo" stylemapfamilyname="TikTok Sans 16pt Light" stylemapstylename="italic">
+            <location>
+                <dimension name="Weight" xvalue="65" />
+                <dimension name="Optical size" xvalue="1.358" />
+                <dimension name="Slant" xvalue="-6" />
+                <dimension name="Width" xvalue="100" />
+            </location>
+        </instance>
+        <instance name="TikTok Sans 16pt Regular Italic" familyname="TikTok Sans 16pt" stylename="Regular Italic" postscriptfontname="TikTokSans16pt-RegularItalic" filename="TikTokSans16pt-RegularItalic.ufo" stylemapfamilyname="TikTok Sans 16pt" stylemapstylename="italic">
+            <location>
+                <dimension name="Weight" xvalue="85" />
+                <dimension name="Optical size" xvalue="1.358" />
+                <dimension name="Slant" xvalue="-6" />
+                <dimension name="Width" xvalue="100" />
+            </location>
+        </instance>
+        <instance name="TikTok Sans 16pt Medium Italic" familyname="TikTok Sans 16pt" stylename="Medium Italic" postscriptfontname="TikTokSans16pt-MediumItalic" filename="TikTokSans16pt-MediumItalic.ufo" stylemapfamilyname="TikTok Sans 16pt Medium" stylemapstylename="italic">
+            <location>
+                <dimension name="Weight" xvalue="107" />
+                <dimension name="Optical size" xvalue="1.358" />
+                <dimension name="Slant" xvalue="-6" />
+                <dimension name="Width" xvalue="100" />
+            </location>
+        </instance>
+        <instance name="TikTok Sans 16pt SemiBold Italic" familyname="TikTok Sans 16pt" stylename="SemiBold Italic" postscriptfontname="TikTokSans16pt-SemiBoldItalic" filename="TikTokSans16pt-SemiBoldItalic.ufo" stylemapfamilyname="TikTok Sans 16pt SemiBold" stylemapstylename="italic">
+            <location>
+                <dimension name="Weight" xvalue="124" />
+                <dimension name="Optical size" xvalue="1.358" />
+                <dimension name="Slant" xvalue="-6" />
+                <dimension name="Width" xvalue="100" />
+            </location>
+        </instance>
+        <instance name="TikTok Sans 16pt Bold Italic" familyname="TikTok Sans 16pt" stylename="Bold Italic" postscriptfontname="TikTokSans16pt-BoldItalic" filename="TikTokSans16pt-BoldItalic.ufo" stylemapfamilyname="TikTok Sans 16pt" stylemapstylename="bold italic">
+            <location>
+                <dimension name="Weight" xvalue="148" />
+                <dimension name="Optical size" xvalue="1.358" />
+                <dimension name="Slant" xvalue="-6" />
+                <dimension name="Width" xvalue="100" />
+            </location>
+        </instance>
+        <instance name="TikTok Sans 16pt ExtraBold Italic" familyname="TikTok Sans 16pt" stylename="ExtraBold Italic" postscriptfontname="TikTokSans16pt-ExtraBoldItalic" filename="TikTokSans16pt-ExtraBoldItalic.ufo" stylemapfamilyname="TikTok Sans 16pt ExtraBold" stylemapstylename="italic">
+            <location>
+                <dimension name="Weight" xvalue="165" />
+                <dimension name="Optical size" xvalue="1.358" />
+                <dimension name="Slant" xvalue="-6" />
+                <dimension name="Width" xvalue="100" />
+            </location>
+        </instance>
+        <instance name="TikTok Sans 16pt Black Italic" familyname="TikTok Sans 16pt" stylename="Black Italic" postscriptfontname="TikTokSans16pt-BlackItalic" filename="TikTokSans16pt-BlackItalic.ufo" stylemapfamilyname="TikTok Sans 16pt Black" stylemapstylename="italic">
+            <location>
+                <dimension name="Weight" xvalue="180" />
+                <dimension name="Optical size" xvalue="1.358" />
+                <dimension name="Slant" xvalue="-6" />
+                <dimension name="Width" xvalue="100" />
+            </location>
+        </instance>
+        <!-- 12pt -->
+        <instance name="TikTok Sans 12pt Light" familyname="TikTok Sans 12pt" stylename="Light" postscriptfontname="TikTokSans12pt-Light" filename="TikTokSans12pt-Light.ufo" stylemapfamilyname="TikTok Sans 12pt Light" stylemapstylename="regular">
+            <location>
+                <dimension name="Weight" xvalue="65" />
+                <dimension name="Optical size" xvalue="1" />
+                <dimension name="Slant" xvalue="0" />
+                <dimension name="Width" xvalue="100" />
+            </location>
+        </instance>
+        <instance name="TikTok Sans 12pt Regular" familyname="TikTok Sans 12pt" stylename="Regular" postscriptfontname="TikTokSans12pt-Regular" filename="TikTokSans12pt-Regular.ufo" stylemapfamilyname="TikTok Sans 12pt" stylemapstylename="regular">
+            <location>
+                <dimension name="Weight" xvalue="85" />
+                <dimension name="Optical size" xvalue="1" />
+                <dimension name="Slant" xvalue="0" />
+                <dimension name="Width" xvalue="100" />
+            </location>
+        </instance>
+        <instance name="TikTok Sans 12pt Medium" familyname="TikTok Sans 12pt" stylename="Medium" postscriptfontname="TikTokSans12pt-Medium" filename="TikTokSans12pt-Medium.ufo" stylemapfamilyname="TikTok Sans 12pt Medium" stylemapstylename="regular">
+            <location>
+                <dimension name="Weight" xvalue="107" />
+                <dimension name="Optical size" xvalue="1" />
+                <dimension name="Slant" xvalue="0" />
+                <dimension name="Width" xvalue="100" />
+            </location>
+        </instance>
+        <instance name="TikTok Sans 12pt SemiBold" familyname="TikTok Sans 12pt" stylename="SemiBold" postscriptfontname="TikTokSans12pt-SemiBold" filename="TikTokSans12pt-SemiBold.ufo" stylemapfamilyname="TikTok Sans 12pt SemiBold" stylemapstylename="regular">
+            <location>
+                <dimension name="Weight" xvalue="124" />
+                <dimension name="Optical size" xvalue="1" />
+                <dimension name="Slant" xvalue="0" />
+                <dimension name="Width" xvalue="100" />
+            </location>
+        </instance>
+        <instance name="TikTok Sans 12pt Bold" familyname="TikTok Sans 12pt" stylename="Bold" postscriptfontname="TikTokSans12pt-Bold" filename="TikTokSans12pt-Bold.ufo" stylemapfamilyname="TikTok Sans 12pt" stylemapstylename="bold">
+            <location>
+                <dimension name="Weight" xvalue="148" />
+                <dimension name="Optical size" xvalue="1" />
+                <dimension name="Slant" xvalue="0" />
+                <dimension name="Width" xvalue="100" />
+            </location>
+        </instance>
+        <instance name="TikTok Sans 12pt ExtraBold" familyname="TikTok Sans 12pt" stylename="ExtraBold" postscriptfontname="TikTokSans12pt-ExtraBold" filename="TikTokSans12pt-ExtraBold.ufo" stylemapfamilyname="TikTok Sans 12pt ExtraBold" stylemapstylename="regular">
+            <location>
+                <dimension name="Weight" xvalue="165" />
+                <dimension name="Optical size" xvalue="1" />
+                <dimension name="Slant" xvalue="0" />
+                <dimension name="Width" xvalue="100" />
+            </location>
+        </instance>
+        <instance name="TikTok Sans 12pt Black" familyname="TikTok Sans 12pt" stylename="Black" postscriptfontname="TikTokSans12pt-Black" filename="TikTokSans12pt-Black.ufo" stylemapfamilyname="TikTok Sans 12pt Black" stylemapstylename="regular">
+            <location>
+                <dimension name="Weight" xvalue="180" />
+                <dimension name="Optical size" xvalue="1" />
+                <dimension name="Slant" xvalue="0" />
+                <dimension name="Width" xvalue="100" />
+            </location>
+        </instance>
+        <!-- 12pt Italic -->
+        <instance name="TikTok Sans 12pt Light Italic" familyname="TikTok Sans 12pt" stylename="Light Italic" postscriptfontname="TikTokSans12pt-LightItalic" filename="TikTokSans12pt-LightItalic.ufo" stylemapfamilyname="TikTok Sans 12pt Light" stylemapstylename="italic">
+            <location>
+                <dimension name="Weight" xvalue="65" />
+                <dimension name="Optical size" xvalue="1" />
+                <dimension name="Slant" xvalue="-6" />
+                <dimension name="Width" xvalue="100" />
+            </location>
+        </instance>
+        <instance name="TikTok Sans 12pt Regular Italic" familyname="TikTok Sans 12pt" stylename="Regular Italic" postscriptfontname="TikTokSans12pt-RegularItalic" filename="TikTokSans12pt-RegularItalic.ufo" stylemapfamilyname="TikTok Sans 12pt" stylemapstylename="italic">
+            <location>
+                <dimension name="Weight" xvalue="85" />
+                <dimension name="Optical size" xvalue="1" />
+                <dimension name="Slant" xvalue="-6" />
+                <dimension name="Width" xvalue="100" />
+            </location>
+        </instance>
+        <instance name="TikTok Sans 12pt Medium Italic" familyname="TikTok Sans 12pt" stylename="Medium Italic" postscriptfontname="TikTokSans12pt-MediumItalic" filename="TikTokSans12pt-MediumItalic.ufo" stylemapfamilyname="TikTok Sans 12pt Medium" stylemapstylename="italic">
+            <location>
+                <dimension name="Weight" xvalue="107" />
+                <dimension name="Optical size" xvalue="1" />
+                <dimension name="Slant" xvalue="-6" />
+                <dimension name="Width" xvalue="100" />
+            </location>
+        </instance>
+        <instance name="TikTok Sans 12pt SemiBold Italic" familyname="TikTok Sans 12pt" stylename="SemiBold Italic" postscriptfontname="TikTokSans12pt-SemiBoldItalic" filename="TikTokSans12pt-SemiBoldItalic.ufo" stylemapfamilyname="TikTok Sans 12pt SemiBold" stylemapstylename="italic">
+            <location>
+                <dimension name="Weight" xvalue="124" />
+                <dimension name="Optical size" xvalue="1" />
+                <dimension name="Slant" xvalue="-6" />
+                <dimension name="Width" xvalue="100" />
+            </location>
+        </instance>
+        <instance name="TikTok Sans 12pt Bold Italic" familyname="TikTok Sans 12pt" stylename="Bold Italic" postscriptfontname="TikTokSans12pt-BoldItalic" filename="TikTokSans12pt-BoldItalic.ufo" stylemapfamilyname="TikTok Sans 12pt" stylemapstylename="bold italic">
+            <location>
+                <dimension name="Weight" xvalue="148" />
+                <dimension name="Optical size" xvalue="1" />
+                <dimension name="Slant" xvalue="-6" />
+                <dimension name="Width" xvalue="100" />
+            </location>
+        </instance>
+        <instance name="TikTok Sans 12pt ExtraBold Italic" familyname="TikTok Sans 12pt" stylename="ExtraBold Italic" postscriptfontname="TikTokSans12pt-ExtraBoldItalic" filename="TikTokSans12pt-ExtraBoldItalic.ufo" stylemapfamilyname="TikTok Sans 12pt ExtraBold" stylemapstylename="italic">
+            <location>
+                <dimension name="Weight" xvalue="165" />
+                <dimension name="Optical size" xvalue="1" />
+                <dimension name="Slant" xvalue="-6" />
+                <dimension name="Width" xvalue="100" />
+            </location>
+        </instance>
+        <instance name="TikTok Sans 12pt Black Italic" familyname="TikTok Sans 12pt" stylename="Black Italic" postscriptfontname="TikTokSans12pt-BlackItalic" filename="TikTokSans12pt-BlackItalic.ufo" stylemapfamilyname="TikTok Sans 12pt Black" stylemapstylename="italic">
+            <location>
+                <dimension name="Weight" xvalue="180" />
+                <dimension name="Optical size" xvalue="1" />
+                <dimension name="Slant" xvalue="-6" />
+                <dimension name="Width" xvalue="100" />
+            </location>
+        </instance>
+    </instances>
+</designspace>

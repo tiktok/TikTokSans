@@ -1,0 +1,113 @@
+{
+color = 11;
+glyphname = Udieresiscaron;
+kernLeft = KO_U;
+kernRight = KO_U;
+layers = (
+{
+layerId = m008;
+shapes = (
+{
+ref = U;
+},
+{
+pos = (144,0);
+ref = dieresiscomb_caroncomb.case;
+}
+);
+width = 657;
+},
+{
+layerId = "EAEE501F-808F-4F80-A534-C44A55AE9CF1";
+shapes = (
+{
+ref = U;
+},
+{
+pos = (110,0);
+ref = dieresiscomb_caroncomb.case;
+}
+);
+width = 696;
+},
+{
+layerId = "E0044746-7B1A-4AF1-A08A-EDFF47B9B447";
+shapes = (
+{
+ref = U;
+},
+{
+pos = (145,0);
+ref = dieresiscomb_caroncomb.case;
+}
+);
+width = 679;
+},
+{
+layerId = "D0F786FD-D799-4DD4-8218-8DF09CBA4779";
+shapes = (
+{
+ref = U;
+},
+{
+pos = (125,0);
+ref = dieresiscomb_caroncomb.case;
+}
+);
+width = 756;
+},
+{
+layerId = "38794FDE-96C3-45FE-89A8-4F68FD88490C";
+shapes = (
+{
+ref = U;
+},
+{
+pos = (109,0);
+ref = dieresiscomb_caroncomb.case;
+}
+);
+width = 497;
+},
+{
+layerId = "BD94C4B7-004C-4524-8669-6CB6D8067CD8";
+shapes = (
+{
+ref = U;
+},
+{
+pos = (82,0);
+ref = dieresiscomb_caroncomb.case;
+}
+);
+width = 580;
+},
+{
+layerId = "B4464F9C-2DA6-418A-B3C4-1470167D4EB6";
+shapes = (
+{
+ref = U;
+},
+{
+pos = (219,0);
+ref = dieresiscomb_caroncomb.case;
+}
+);
+width = 894;
+},
+{
+layerId = "9C3D73EE-3D01-4F34-8F18-5001540A34C7";
+shapes = (
+{
+ref = U;
+},
+{
+pos = (223,0);
+ref = dieresiscomb_caroncomb.case;
+}
+);
+width = 960;
+}
+);
+unicode = 473;
+}

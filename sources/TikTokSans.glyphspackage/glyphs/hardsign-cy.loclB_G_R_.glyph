@@ -1,0 +1,197 @@
+{
+color = 11;
+glyphname = "hardsign-cy.loclBGR";
+kernLeft = "KO_hardsign-cy";
+kernRight = "KO_softsign-cy";
+layers = (
+{
+anchors = (
+{
+name = top;
+pos = (319,527);
+}
+);
+layerId = "E0044746-7B1A-4AF1-A08A-EDFF47B9B447";
+shapes = (
+{
+alignment = -1;
+pos = (108,0);
+ref = "softsign-cy.loclBGR";
+},
+{
+pos = (10,0);
+ref = "_cy-stroke-comb";
+}
+);
+width = 638;
+},
+{
+anchors = (
+{
+name = top;
+pos = (353,539);
+}
+);
+layerId = "D0F786FD-D799-4DD4-8218-8DF09CBA4779";
+shapes = (
+{
+alignment = -1;
+pos = (101,0);
+ref = "softsign-cy.loclBGR";
+},
+{
+pos = (16,0);
+ref = "_cy-stroke-comb";
+}
+);
+width = 706;
+},
+{
+anchors = (
+{
+name = top;
+pos = (312,507);
+}
+);
+layerId = m008;
+shapes = (
+{
+alignment = -1;
+pos = (123,0);
+ref = "softsign-cy.loclBGR";
+},
+{
+pos = (8,0);
+ref = "_cy-stroke-comb";
+}
+);
+width = 624;
+},
+{
+anchors = (
+{
+name = top;
+pos = (345,528);
+}
+);
+layerId = "EAEE501F-808F-4F80-A534-C44A55AE9CF1";
+shapes = (
+{
+alignment = -1;
+pos = (120,0);
+ref = "softsign-cy.loclBGR";
+},
+{
+pos = (5,0);
+ref = "_cy-stroke-comb";
+}
+);
+width = 689;
+},
+{
+anchors = (
+{
+name = top;
+pos = (232,507);
+}
+);
+layerId = "38794FDE-96C3-45FE-89A8-4F68FD88490C";
+shapes = (
+{
+alignment = -1;
+pos = (86,0);
+ref = "softsign-cy.loclBGR";
+},
+{
+pos = (-1,0);
+ref = "_cy-stroke-comb";
+}
+);
+width = 463;
+},
+{
+anchors = (
+{
+name = top;
+pos = (292,526);
+}
+);
+layerId = "BD94C4B7-004C-4524-8669-6CB6D8067CD8";
+shapes = (
+{
+alignment = -1;
+pos = (120,0);
+ref = "softsign-cy.loclBGR";
+},
+{
+pos = (25,2);
+ref = "_cy-stroke-comb";
+}
+);
+width = 608;
+},
+{
+anchors = (
+{
+name = top;
+pos = (665,507);
+}
+);
+layerId = "B4464F9C-2DA6-418A-B3C4-1470167D4EB6";
+shapes = (
+{
+alignment = -1;
+pos = (210,0);
+ref = "softsign-cy.loclBGR";
+},
+{
+pos = (8,0);
+ref = "_cy-stroke-comb";
+}
+);
+width = 891;
+},
+{
+anchors = (
+{
+name = top;
+pos = (1842,535);
+}
+);
+background = {
+anchors = (
+{
+name = top;
+pos = (1842,535);
+}
+);
+shapes = (
+{
+alignment = -1;
+pos = (219,0);
+ref = "softsign-cy.loclBGR";
+},
+{
+pos = (30,0);
+ref = "_cy-stroke-comb";
+}
+);
+};
+layerId = "9C3D73EE-3D01-4F34-8F18-5001540A34C7";
+shapes = (
+{
+alignment = -1;
+pos = (219,0);
+ref = "softsign-cy.loclBGR";
+},
+{
+pos = (30,0);
+ref = "_cy-stroke-comb";
+}
+);
+width = 978;
+}
+);
+metricLeft = "hardsign-cy";
+metricRight = "softsign-cy";
+}

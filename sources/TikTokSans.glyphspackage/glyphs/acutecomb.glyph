@@ -1,0 +1,206 @@
+{
+glyphname = acutecomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (83,507);
+},
+{
+name = top;
+pos = (130,710);
+}
+);
+layerId = m008;
+shapes = (
+{
+closed = 1;
+nodes = (
+(50,574,l),
+(119,574,l),
+(205,710,l),
+(132,710,l)
+);
+}
+);
+width = 255;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (86,527);
+},
+{
+name = top;
+pos = (130,725);
+}
+);
+layerId = "E0044746-7B1A-4AF1-A08A-EDFF47B9B447";
+shapes = (
+{
+closed = 1;
+nodes = (
+(50,594,l),
+(121,594,l),
+(233,755,l),
+(158,755,l)
+);
+}
+);
+width = 283;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (127,528);
+},
+{
+name = top;
+pos = (173,710);
+}
+);
+layerId = "EAEE501F-808F-4F80-A534-C44A55AE9CF1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(50,583,l),
+(204,583,l),
+(288,710,l),
+(126,710,l)
+);
+}
+);
+width = 338;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (129,539);
+},
+{
+name = top;
+pos = (159,725);
+}
+);
+layerId = "D0F786FD-D799-4DD4-8218-8DF09CBA4779";
+shapes = (
+{
+closed = 1;
+nodes = (
+(50,608,l),
+(207,608,l),
+(336,792,l),
+(169,792,l)
+);
+}
+);
+width = 386;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (64,507);
+},
+{
+name = top;
+pos = (99,710);
+}
+);
+layerId = "38794FDE-96C3-45FE-89A8-4F68FD88490C";
+shapes = (
+{
+closed = 1;
+nodes = (
+(35,574,l),
+(95,574,l),
+(159,710,l),
+(96,710,l)
+);
+}
+);
+width = 194;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (114,528);
+},
+{
+name = top;
+pos = (152,710);
+}
+);
+layerId = "BD94C4B7-004C-4524-8669-6CB6D8067CD8";
+shapes = (
+{
+closed = 1;
+nodes = (
+(37,582,l),
+(175,582,l),
+(259,710,l),
+(109,710,l)
+);
+}
+);
+width = 296;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (93,507);
+},
+{
+name = top;
+pos = (154,710);
+}
+);
+layerId = "B4464F9C-2DA6-418A-B3C4-1470167D4EB6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(50,574,l),
+(121,574,l),
+(251,710,l),
+(175,710,l)
+);
+}
+);
+width = 301;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (142,535);
+},
+{
+name = top;
+pos = (218,718);
+}
+);
+layerId = "9C3D73EE-3D01-4F34-8F18-5001540A34C7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(50,586,l),
+(234,586,l),
+(339,718,l),
+(146,718,l)
+);
+}
+);
+width = 367;
+}
+);
+unicode = 769;
+}

@@ -1,0 +1,96 @@
+{
+color = 11;
+glyphname = anoteleia;
+layers = (
+{
+layerId = "E0044746-7B1A-4AF1-A08A-EDFF47B9B447";
+shapes = (
+{
+pos = (0,123);
+ref = periodcentered;
+}
+);
+width = 291;
+},
+{
+layerId = "D0F786FD-D799-4DD4-8218-8DF09CBA4779";
+shapes = (
+{
+pos = (0,120);
+ref = periodcentered;
+}
+);
+width = 337;
+},
+{
+layerId = m008;
+shapes = (
+{
+pos = (0,115);
+ref = periodcentered;
+}
+);
+width = 263;
+},
+{
+layerId = "EAEE501F-808F-4F80-A534-C44A55AE9CF1";
+shapes = (
+{
+pos = (0,130);
+ref = periodcentered;
+}
+);
+width = 294;
+},
+{
+layerId = "38794FDE-96C3-45FE-89A8-4F68FD88490C";
+shapes = (
+{
+pos = (0,115);
+ref = periodcentered;
+}
+);
+width = 200;
+},
+{
+layerId = "BD94C4B7-004C-4524-8669-6CB6D8067CD8";
+shapes = (
+{
+pos = (0,130);
+ref = periodcentered;
+}
+);
+width = 250;
+},
+{
+layerId = "B4464F9C-2DA6-418A-B3C4-1470167D4EB6";
+shapes = (
+{
+pos = (0,115);
+ref = periodcentered;
+}
+);
+width = 274;
+},
+{
+layerId = "9C3D73EE-3D01-4F34-8F18-5001540A34C7";
+shapes = (
+{
+alignment = -1;
+pos = (0,135);
+ref = periodcentered;
+}
+);
+width = 358;
+}
+);
+metricLeft = period;
+metricRight = period;
+unicode = 903;
+userData = {
+KernOnSpecialSpacing = {
+L = period;
+R = period;
+};
+};
+}

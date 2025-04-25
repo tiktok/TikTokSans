@@ -1,0 +1,176 @@
+{
+glyphname = guilsinglright.case;
+kernLeft = KO_guillemetright.case;
+kernRight = KO_guillemetright.case;
+layers = (
+{
+layerId = m008;
+shapes = (
+{
+closed = 1;
+nodes = (
+(144,146,l),
+(281,351,l),
+(144,556,l),
+(80,556,l),
+(238,321,l),
+(238,381,l),
+(80,146,l)
+);
+}
+);
+width = 361;
+},
+{
+layerId = "E0044746-7B1A-4AF1-A08A-EDFF47B9B447";
+shapes = (
+{
+closed = 1;
+nodes = (
+(162,130,l),
+(299,335,l),
+(162,540,l),
+(98,540,l),
+(256,305,l),
+(256,365,l),
+(98,130,l)
+);
+}
+);
+width = 397;
+},
+{
+layerId = "EAEE501F-808F-4F80-A534-C44A55AE9CF1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(215,137,l),
+(352,342,l),
+(215,547,l),
+(52,547,l),
+(210,312,l),
+(210,372,l),
+(52,137,l)
+);
+}
+);
+width = 404;
+},
+{
+layerId = "D0F786FD-D799-4DD4-8218-8DF09CBA4779";
+shapes = (
+{
+closed = 1;
+nodes = (
+(218,120,l),
+(355,325,l),
+(218,530,l),
+(58,530,l),
+(216,295,l),
+(216,355,l),
+(58,120,l)
+);
+}
+);
+width = 413;
+},
+{
+layerId = "38794FDE-96C3-45FE-89A8-4F68FD88490C";
+shapes = (
+{
+closed = 1;
+nodes = (
+(115,146,l),
+(217,351,l),
+(115,556,l),
+(57,556,l),
+(175,321,l),
+(175,381,l),
+(57,146,l)
+);
+}
+);
+width = 274;
+},
+{
+layerId = "BD94C4B7-004C-4524-8669-6CB6D8067CD8";
+shapes = (
+{
+closed = 1;
+nodes = (
+(188,138,l),
+(305,343,l),
+(188,548,l),
+(38,548,l),
+(168,313,l),
+(168,373,l),
+(38,138,l)
+);
+}
+);
+width = 343;
+},
+{
+layerId = "B4464F9C-2DA6-418A-B3C4-1470167D4EB6";
+metricLeft = "=|guilsinglleft";
+metricRight = "=|guilsinglleft";
+shapes = (
+{
+closed = 1;
+nodes = (
+(155,146,l),
+(351,351,l),
+(155,556,l),
+(80,556,l),
+(306,321,l),
+(306,381,l),
+(80,146,l)
+);
+}
+);
+width = 431;
+},
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(250,134,l),
+(387,339,l),
+(250,544,l),
+(52,544,l),
+(210,309,l),
+(210,369,l),
+(52,134,l)
+);
+}
+);
+};
+layerId = "9C3D73EE-3D01-4F34-8F18-5001540A34C7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(264,134,l),
+(460,339,l),
+(264,544,l),
+(52,544,l),
+(279,309,l),
+(279,369,l),
+(52,134,l)
+);
+}
+);
+width = 512;
+}
+);
+note = guilsinglright;
+userData = {
+KernOnSpecialSpacing = {
+L = quotes;
+R = quotes;
+};
+};
+}

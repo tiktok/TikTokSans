@@ -1,0 +1,506 @@
+{
+color = 3;
+glyphname = K;
+kernLeft = KO_H;
+kernRight = KO_K;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (315,0);
+},
+{
+name = "cy-block.UC";
+pos = (561,60);
+},
+{
+name = stem;
+pos = (143,705);
+},
+{
+name = top;
+pos = (315,705);
+}
+);
+layerId = m008;
+name = "TikTok Display Light";
+shapes = (
+{
+closed = 1;
+nodes = (
+(294,453,l),
+(308,466,l),
+(570,705,l),
+(476,705,l),
+(143,395,l),
+(106,395,l),
+(106,281,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(143,0,l),
+(143,705,l),
+(75,705,l),
+(75,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(599,0,l),
+(314,504,l),
+(262,459,l),
+(520,0,l)
+);
+}
+);
+width = 619;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (315,0);
+},
+{
+name = "cy-block.UC";
+pos = (570,60);
+},
+{
+name = stem;
+pos = (150,705);
+},
+{
+name = top;
+pos = (315,705);
+}
+);
+layerId = "E0044746-7B1A-4AF1-A08A-EDFF47B9B447";
+name = "TikTok Display Light";
+shapes = (
+{
+closed = 1;
+nodes = (
+(279,399,l),
+(290,410,l),
+(580,705,l),
+(486,705,l),
+(154,356,l),
+(113,356,l),
+(113,231,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(150,0,l),
+(150,705,l),
+(82,705,l),
+(82,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(602,0,l),
+(301,444,l),
+(249,399,l),
+(523,0,l)
+);
+}
+);
+width = 629;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (359,0);
+},
+{
+name = "cy-block.UC";
+pos = (632,171);
+},
+{
+name = stem;
+pos = (241,705);
+},
+{
+name = top;
+pos = (359,705);
+}
+);
+layerId = "EAEE501F-808F-4F80-A534-C44A55AE9CF1";
+name = "TikTok Display Light";
+shapes = (
+{
+closed = 1;
+nodes = (
+(374,386,l),
+(400,412,l),
+(695,705,l),
+(461,705,l),
+(241,476,l),
+(170,476,l),
+(170,183,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(241,0,l),
+(241,705,l),
+(52,705,l),
+(52,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(706,0,l),
+(441,487,l),
+(302,358,l),
+(490,0,l)
+);
+}
+);
+width = 717;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (371,0);
+},
+{
+name = "cy-block.UC";
+pos = (648,152);
+},
+{
+name = stem;
+pos = (265,705);
+},
+{
+name = top;
+pos = (371,705);
+}
+);
+layerId = "D0F786FD-D799-4DD4-8218-8DF09CBA4779";
+name = "TikTok Display Light";
+shapes = (
+{
+closed = 1;
+nodes = (
+(338,309,l),
+(415,353,l),
+(723,705,l),
+(507,705,l),
+(271,430,l),
+(209,430,l),
+(189,133,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(265,0,l),
+(265,705,l),
+(80,705,l),
+(80,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(719,0,l),
+(444,430,l),
+(324,307,l),
+(508,0,l)
+);
+}
+);
+width = 743;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (241,0);
+},
+{
+name = "cy-block.UC";
+pos = (428,55);
+},
+{
+name = stem;
+pos = (117,705);
+},
+{
+name = top;
+pos = (241,705);
+}
+);
+layerId = "38794FDE-96C3-45FE-89A8-4F68FD88490C";
+name = "TikTok Display Light";
+shapes = (
+{
+closed = 1;
+nodes = (
+(228,456,l),
+(240,468,l),
+(440,705,l),
+(366,705,l),
+(117,408,l),
+(86,408,l),
+(86,285,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(117,0,l),
+(117,705,l),
+(54,705,l),
+(54,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(460,0,l),
+(248,505,l),
+(198,463,l),
+(390,0,l)
+);
+}
+);
+width = 474;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (304,0);
+},
+{
+name = "cy-block.UC";
+pos = (534,160);
+},
+{
+name = stem;
+pos = (217,705);
+},
+{
+name = top;
+pos = (304,705);
+}
+);
+layerId = "BD94C4B7-004C-4524-8669-6CB6D8067CD8";
+name = "TikTok Display Light";
+shapes = (
+{
+closed = 1;
+nodes = (
+(327,393,l),
+(350,417,l),
+(599,705,l),
+(403,705,l),
+(217,486,l),
+(155,486,l),
+(155,193,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(217,0,l),
+(217,705,l),
+(38,705,l),
+(38,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(602,0,l),
+(387,489,l),
+(257,368,l),
+(409,0,l)
+);
+}
+);
+width = 610;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (416,0);
+},
+{
+name = "cy-block.UC";
+pos = (777,60);
+},
+{
+name = stem;
+pos = (143,705);
+},
+{
+name = top;
+pos = (416,705);
+}
+);
+layerId = "B4464F9C-2DA6-418A-B3C4-1470167D4EB6";
+name = "TikTok Display Light";
+shapes = (
+{
+closed = 1;
+nodes = (
+(376,457,l),
+(392,466,l),
+(776,705,l),
+(670,705,l),
+(128,370,l),
+(97,370,l),
+(97,283,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(143,0,l),
+(143,705,l),
+(75,705,l),
+(75,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(824,0,l),
+(391,504,l),
+(336,472,l),
+(740,0,l)
+);
+}
+);
+width = 844;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (483,0);
+},
+{
+name = "cy-block.UC";
+pos = (881,210);
+},
+{
+name = stem;
+pos = (283,705);
+},
+{
+name = top;
+pos = (483,705);
+}
+);
+background = {
+anchors = (
+{
+name = bottom;
+pos = (483,0);
+},
+{
+name = "cy-block.UC";
+pos = (881,210);
+},
+{
+name = stem;
+pos = (283,705);
+},
+{
+name = top;
+pos = (483,705);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(490,374,l),
+(510,391,l),
+(952,705,l),
+(656,705,l),
+(269,438,l),
+(183,438,l),
+(191,153,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(283,0,l),
+(283,705,l),
+(52,705,l),
+(52,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(976,0,l),
+(570,481,l),
+(408,358,l),
+(710,0,l)
+);
+}
+);
+};
+layerId = "9C3D73EE-3D01-4F34-8F18-5001540A34C7";
+name = "TikTok Display Light";
+shapes = (
+{
+closed = 1;
+nodes = (
+(490,374,l),
+(510,391,l),
+(952,705,l),
+(656,705,l),
+(269,438,l),
+(183,438,l),
+(191,153,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(283,0,l),
+(283,705,l),
+(52,705,l),
+(52,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(976,0,l),
+(570,481,l),
+(408,358,l),
+(710,0,l)
+);
+}
+);
+width = 987;
+}
+);
+metricLeft = H;
+note = K;
+unicode = 75;
+userData = {
+KernOnName = K;
+};
+}
