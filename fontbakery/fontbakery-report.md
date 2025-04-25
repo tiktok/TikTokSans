@@ -12,7 +12,7 @@ fontbakery version: 0.13.2
 
 
 
-<details><summary>[14] TikTokSans[opsz,slnt,wdth,wght].ttf</summary>
+<details><summary>[16] TikTokSans[opsz,slnt,wdth,wght].ttf</summary>
 <div>
 <details>
     <summary>🔥 <b>FAIL</b> Ensure smart dropout control is enabled in "prep" table instructions. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#smart-dropout">smart_dropout</a></summary>
@@ -99,7 +99,7 @@ fontbakery version: 0.13.2
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: Ҥ, ҥ</td>
+<td align="left">The following base characters are missing from the font: ҥ, Ҥ</td>
 <td align="left">chm_Cyrl (Mari)</td>
 </tr>
 <tr>
@@ -107,7 +107,7 @@ fontbakery version: 0.13.2
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: ҕ, ҥ</td>
+<td align="left">The following base characters are missing from the font: ҥ, ҕ</td>
 <td align="left">sah_Cyrl (Sakha)</td>
 </tr>
 </tbody>
@@ -558,6 +558,27 @@ fontbakery version: 0.13.2
 </details>
 
 <details>
+    <summary>🔥 <b>FAIL</b> Check license file has good copyright string. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-license-OFL-copyright">googlefonts/license/OFL_copyright</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>First line in license file is:</p>
+<p>&quot;copyright 2024 tiktok inc. (<a href="https://github.com/tiktok/tiktoksans">https://github.com/tiktok/tiktoksans</a>)&quot;</p>
+<p>which does not match the expected format, similar to:</p>
+<p>&quot;Copyright 2022 The Familyname Project Authors (git url)&quot;</p>
+ [code: bad-format]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>🔥 <b>FAIL</b> Validate STAT particle names and values match the fallback names in GFAxisRegistry. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-STAT-axisregistry">googlefonts/STAT/axisregistry</a></summary>
     <div>
 
@@ -651,22 +672,22 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, coptic, cherokee</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, math, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, duployan, math, hebrew, todhri, old-permic, canadian-aboriginal, tifinagh, syriac, malayalam, coptic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, todhri, old-permic, hebrew, math, malayalam, canadian-aboriginal, tai-le, duployan</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, gothic, caucasian-albanian, sunuwar, tifinagh, syriac, cherokee</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, thai, syriac, caucasian-albanian, cherokee, gothic, sunuwar</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
 <li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
@@ -725,19 +746,19 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+2460 CIRCLED DIGIT ONE: try adding one of: symbols, mongolian, yi</li>
-<li>U+2461 CIRCLED DIGIT TWO: try adding one of: symbols, mongolian, yi</li>
-<li>U+2462 CIRCLED DIGIT THREE: try adding one of: symbols, mongolian, yi</li>
-<li>U+2463 CIRCLED DIGIT FOUR: try adding one of: symbols, mongolian, yi</li>
-<li>U+2464 CIRCLED DIGIT FIVE: try adding one of: symbols, mongolian, yi</li>
-<li>U+2465 CIRCLED DIGIT SIX: try adding one of: symbols, mongolian, yi</li>
-<li>U+2466 CIRCLED DIGIT SEVEN: try adding one of: symbols, mongolian, yi</li>
-<li>U+2467 CIRCLED DIGIT EIGHT: try adding one of: symbols, mongolian, yi</li>
-<li>U+2468 CIRCLED DIGIT NINE: try adding one of: symbols, mongolian, yi</li>
+<li>U+2460 CIRCLED DIGIT ONE: try adding one of: mongolian, yi, symbols</li>
+<li>U+2461 CIRCLED DIGIT TWO: try adding one of: mongolian, yi, symbols</li>
+<li>U+2462 CIRCLED DIGIT THREE: try adding one of: mongolian, yi, symbols</li>
+<li>U+2463 CIRCLED DIGIT FOUR: try adding one of: mongolian, yi, symbols</li>
+<li>U+2464 CIRCLED DIGIT FIVE: try adding one of: mongolian, yi, symbols</li>
+<li>U+2465 CIRCLED DIGIT SIX: try adding one of: mongolian, yi, symbols</li>
+<li>U+2466 CIRCLED DIGIT SEVEN: try adding one of: mongolian, yi, symbols</li>
+<li>U+2467 CIRCLED DIGIT EIGHT: try adding one of: mongolian, yi, symbols</li>
+<li>U+2468 CIRCLED DIGIT NINE: try adding one of: mongolian, yi, symbols</li>
 <li>U+24EA CIRCLED DIGIT ZERO: try adding symbols</li>
 <li>U+24FF NEGATIVE CIRCLED DIGIT ZERO: try adding symbols</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: tirhuta, hanunoo, adlam, bassa-vah, mende-kikakui, music, cham, tai-le, kharoshthi, brahmi, rejang, old-permic, telugu, limbu, khmer, sharada, manichaean, grantha, buhid, elbasan, sundanese, warang-citi, batak, oriya, buginese, dogra, chakma, mahajani, zanabazar-square, mandaic, armenian, bhaiksuki, khudawadi, new-tai-lue, tagalog, tai-tham, newa, masaram-gondi, soyombo, balinese, kannada, thai, nko, caucasian-albanian, devanagari, sinhala, kayah-li, saurashtra, duployan, canadian-aboriginal, kaithi, khojki, malayalam, javanese, mongolian, myanmar, symbols, osage, thaana, coptic, hebrew, ahom, meetei-mayek, psalter-pahlavi, pahawh-hmong, miao, lao, bengali, takri, yi, tifinagh, syloti-nagri, gurmukhi, marchen, tagbanwa, tamil, syriac, math, wancho, modi, sogdian, tibetan, lepcha, gujarati, gunjala-gondi, siddham, phags-pa, tai-viet, hanifi-rohingya</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: hanunoo, brahmi, devanagari, siddham, khudawadi, grantha, marchen, new-tai-lue, soyombo, buginese, yi, rejang, buhid, coptic, javanese, takri, lepcha, tibetan, duployan, phags-pa, sharada, music, sinhala, adlam, thai, myanmar, ahom, syloti-nagri, syriac, meetei-mayek, pahawh-hmong, miao, modi, caucasian-albanian, telugu, dogra, batak, cham, manichaean, tamil, kannada, masaram-gondi, mongolian, mahajani, hanifi-rohingya, kaithi, khmer, gunjala-gondi, tai-le, kayah-li, armenian, tagalog, lao, bhaiksuki, khojki, gurmukhi, balinese, old-permic, wancho, limbu, malayalam, thaana, tai-viet, bassa-vah, tai-tham, saurashtra, tifinagh, newa, warang-citi, tagbanwa, sundanese, oriya, mandaic, bengali, tirhuta, zanabazar-square, chakma, math, canadian-aboriginal, mende-kikakui, elbasan, hebrew, kharoshthi, sogdian, symbols, nko, osage, gujarati, psalter-pahlavi</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+2776 DINGBAT NEGATIVE CIRCLED DIGIT ONE: try adding symbols</li>
 <li>U+2777 DINGBAT NEGATIVE CIRCLED DIGIT TWO: try adding symbols</li>
@@ -753,6 +774,26 @@ definitions.</p>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>cyrillic</code>, <code>cyrillic-ext</code>, <code>greek</code>, <code>latin</code>, <code>latin-ext</code>, <code>vietnamese</code></p>
  [code: unreachable-subsetting]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check OFL body text is correct. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-license-OFL-body-text">googlefonts/license/OFL_body_text</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The OFL.txt body text is incorrect. Please use <a href="https://github.com/googlefonts/Unified-Font-Repository/blob/main/OFL.txt">https://github.com/googlefonts/Unified-Font-Repository/blob/main/OFL.txt</a> as a template. You should only modify the first line.</p>
+<p>Lines changed:</p>
+<p>+ with Reserved Font Names &quot;TikTok Sans&quot;.\n</p>
+ [code: incorrect-ofl-body-text]
 
 
 
@@ -985,8 +1026,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 6 | 8 | 88 | 6 | 128 | 0 | 
-| 0% | 0% | 3% | 3% | 37% | 3% | 54% | 0% | 
+| 0 | 0 | 7 | 9 | 88 | 6 | 126 | 0 | 
+| 0% | 0% | 3% | 4% | 37% | 3% | 53% | 0% | 
 
 
 
