@@ -30,7 +30,7 @@ Fonts are built automatically by GitHub Actions. You can find the latest build i
 - `make build` will produce static and variable fonts in all font file formats (.otf, .ttf, .woff, .woff2).
 - `make test` will run [FontBakery](https://github.com/googlefonts/fontbakery)’s quality assurance tests.
 - `make proof` will generate HTML proof files.
-- `make rename name="My Font" dir="./MyDirPath"` will build fonts using a different family name (`name` argument) and outputting them to the desired directory path (`dir` argument). This is useful for subsetting the font family without using the reserved font name “TikTok Sans”.
+- `make rename name="My Font" dir="./MyDirPath"` will build fonts using a different family name (`name` argument) and outputting them to the desired directory path (`dir` argument). This is useful for subsetting the font family without using the reserved font name.
 
 Proof files and QA tests are also available automatically via GitHub Action. You can find them at [https://tiktok.github.io/TikTokSans/](https://tiktok.github.io/TikTokSans/).
 
@@ -40,7 +40,7 @@ If you identify a security issue in this project, do not open a public GitHub is
 
 ## License
 
-This Font Software is licensed under the SIL Open Font License, Version 1.1, with Reserved Font Name "TikTok Sans". This license is available with a FAQ at [https://scripts.sil.org/OFL](https://scripts.sil.org/OFL).
+This Font Software is licensed under the SIL Open Font License, Version 1.1, with Reserved Font Name "TikTok". This license is available with a FAQ at [https://scripts.sil.org/OFL](https://scripts.sil.org/OFL).
 
 For more details, see [License](LICENSE).
 
@@ -48,7 +48,7 @@ For more details, see [License](LICENSE).
 
 TikTok Sans is designed and engineered by [Grilli Type](https://www.grillitype.com/), [Contrast Foundry](https://contrastfoundry.com/), and [Type Network](https://typenetwork.com/). It's produced and maintained by [TikTok](https://tiktok.com/about) (Design, Marketing, and Engineering).
 
-For more details, see [Contributors](CONTRIBUTORS.md).
+For more details, see [Contributors](CONTRIBUTORS.txt).
 
 ## Copyright
 
