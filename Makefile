@@ -6,10 +6,10 @@ help:
 	@echo "# Build targets for $(FAMILY)"
 	@echo "###"
 	@echo
-	@echo "  make dev:  Builds the fonts and places them in the fonts/ directory"
-	@echo "  make build:  Builds the fonts and places them in the fonts/ directory"
-	@echo "  make test:   Tests the fonts with fontbakery"
-	@echo "  make proof:  Creates HTML proof documents in the proof/ directory"
+	@echo "  make dev:     Produce only the variable font for testing during development."
+	@echo "  make build:   Produce static and variable fonts in all font file formats (.otf, .ttf, .woff, .woff2)."
+	@echo "  make test:    Run [FontBakery](https://github.com/googlefonts/fontbakery)’s quality assurance tests."
+	@echo "  make proof:   Generate HTML proof files."
 	@echo
 
 build: build.stamp
