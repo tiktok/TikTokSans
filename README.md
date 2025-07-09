@@ -1,6 +1,6 @@
 # TikTok Sans
 
-**[Download from Google Fonts ↗︎](https://fonts.google.com/specimen/TikTokSans) | [Website ↗︎](https://tiktok.com/font) | [Specimen ↗︎](https://raw.githubusercontent.com/tiktok/TikTokSans/main/documentation/TikTokSans.pdf)**
+**[Download from Google Fonts ↗︎](https://fonts.google.com/specimen/TikTok+Sans) | [Website ↗︎](https://tiktok.com/font) | [Specimen ↗︎](https://raw.githubusercontent.com/tiktok/TikTokSans/main/documentation/TikTokSans.pdf)**
 
 ![TikTok Sans example](documentation/cover.png)
 
@@ -20,7 +20,7 @@ Languages supported by **TikTok Sans** _and_ **TikTok app**: English, Spanish, P
 
 Languages supported by **TikTok app** but _not_ by **TikTok Sans**: Arabic, Hebrew, Hindi, Urdu, Bangla, Thai, Khmer, Burmese, Chinese, Japanese, Korean.
 
-For a complete list of supported languages, visit [our Google Fonts page](https://fonts.google.com/specimen/TikTokSans/glyphs).
+For a complete list of supported languages, visit [our Google Fonts page](https://fonts.google.com/specimen/TikTok+Sans/glyphs).
 
 ## Building
 
