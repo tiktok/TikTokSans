@@ -4,15 +4,13 @@
 #
 #    pip-compile requirements.in
 #
-absl-py==2.2.2
+absl-py==2.3.1
     # via
     #   gftools
     #   nanoemoji
     #   picosvg
 afdko==4.0.2
     # via gftools
-appdirs==1.4.4
-    # via fs
 attrs==25.3.0
     # via
     #   cattrs
@@ -20,9 +18,9 @@ attrs==25.3.0
     #   statmake
     #   trio
     #   ufolib2
-axisregistry==0.4.12
+axisregistry==0.4.16
     # via gftools
-babelfont==3.1.2
+babelfont==3.1.3
     # via gftools
 beautifulsoup4==4.13.4
     # via gftools
@@ -45,11 +43,11 @@ bumpfontversion==0.4.1
     # via
     #   -r requirements.in
     #   gftools
-cattrs==24.1.3
+cattrs==25.1.1
     # via
     #   statmake
     #   ufolib2
-certifi==2025.1.31
+certifi==2025.8.3
     # via
     #   requests
     #   selenium
@@ -60,26 +58,24 @@ cffi==1.17.1
     #   pynacl
 cffsubr==0.3.0
     # via ufo2ft
-charset-normalizer==3.4.1
+charset-normalizer==3.4.3
     # via requests
 compreffor==0.5.6
     # via ufo2ft
-cryptography==44.0.2
+cryptography==45.0.6
     # via pyjwt
-defcon[lxml,pens]==0.12.1
+defcon[lxml,pens]==0.12.2
     # via
     #   afdko
     #   fontparts
     #   glyphsets
     #   mutatormath
     #   ufoprocessor
-deprecated==1.2.18
-    # via pygithub
-diffenator2==0.4.5
+diffenator2==0.4.9
     # via -r requirements.in
 drawbot-skia==0.5.1
     # via -r requirements.in
-exceptiongroup==1.2.2
+exceptiongroup==1.3.0
     # via
     #   cattrs
     #   trio
@@ -88,9 +84,9 @@ filelock==3.18.0
     # via youseedee
 font-v==2.1.0
     # via gftools
-fontfeatures==1.8.0
+fontfeatures==1.9.0
     # via gftools
-fontmake[json]==3.10.0
+fontmake[json]==3.10.1
     # via
     #   -r requirements.in
     #   gftools
@@ -102,11 +98,11 @@ fontmath==0.9.4
     #   mutatormath
     #   ufo2ft
     #   ufoprocessor
-fontparts==0.12.4
+fontparts==0.13.2
     # via ufoprocessor
 fontpens==0.2.4
     # via defcon
-fonttools[lxml,ufo,unicode,woff]==4.57.0
+fonttools[lxml,ufo,unicode,woff]==4.59.0
     # via
     #   afdko
     #   axisregistry
@@ -139,11 +135,7 @@ fonttools[lxml,ufo,unicode,woff]==4.57.0
     #   vttlib
 freetype-py==2.5.1
     # via diffenator2
-fs==2.4.16
-    # via
-    #   fontfeatures
-    #   fonttools
-gflanguages==0.7.3
+gflanguages==0.7.6
     # via
     #   diffenator2
     #   gftools
@@ -154,13 +146,13 @@ gftools @ git+https://github.com/googlefonts/gftools@77fca7f282b4277cbbf01a462d5
     # via -r requirements.in
 gitdb==4.0.12
     # via gitpython
-gitpython==3.1.44
+gitpython==3.1.45
     # via font-v
 glyphsets==1.1.0
     # via
     #   diffenator2
     #   gftools
-glyphslib==6.10.1
+glyphslib==6.11.4
     # via
     #   -r requirements.in
     #   bumpfontversion
@@ -179,14 +171,14 @@ jinja2==3.1.6
     # via
     #   diffenator2
     #   gftools
-lxml==5.4.0
+lxml==6.0.0
     # via
     #   afdko
     #   fontfeatures
     #   fonttools
     #   nanoemoji
     #   picosvg
-markdown-it-py==3.0.0
+markdown-it-py==4.0.0
     # via rich
 markupsafe==3.0.2
     # via jinja2
@@ -194,16 +186,16 @@ mdurl==0.1.2
     # via markdown-it-py
 mutatormath==3.0.1
     # via ufoprocessor
-nanoemoji==0.15.1
+nanoemoji==0.15.8
     # via gftools
 networkx==3.4.2
     # via gftools
-ninja==1.11.1.4
+ninja==1.13.0
     # via
     #   diffenator2
     #   gftools
     #   nanoemoji
-numpy==2.2.5
+numpy==2.2.6
     # via
     #   blackrenderer
     #   drawbot-skia
@@ -215,7 +207,7 @@ openstep-plist==0.5.0
     #   glyphslib
 opentype-sanitizer==9.2.0
     # via gftools
-orjson==3.10.16
+orjson==3.11.1
     # via
     #   babelfont
     #   ufolib2
@@ -225,9 +217,9 @@ outcome==1.3.0.post0
     #   trio-websocket
 packaging==25.0
     # via gftools
-picosvg==0.22.1
+picosvg==0.22.3
     # via nanoemoji
-pillow==11.2.1
+pillow==11.3.0
     # via
     #   diffenator2
     #   gftools
@@ -240,9 +232,9 @@ protobuf==3.20.3
     #   diffenator2
     #   gflanguages
     #   gftools
-pyahocorasick==2.1.0
+pyahocorasick==2.2.0
     # via diffenator2
-pybind11==2.13.6
+pybind11==3.0.0
     # via skia-python
 pyclipper==1.3.0.post6
     # via booleanoperations
@@ -250,9 +242,9 @@ pycparser==2.22
     # via cffi
 pygit2==1.15.0
     # via gftools
-pygithub==2.6.1
+pygithub==2.7.0
     # via gftools
-pygments==2.19.1
+pygments==2.19.2
     # via rich
 pyjwt[crypto]==2.10.1
     # via pygithub
@@ -272,9 +264,9 @@ pyyaml==6.0.2
     # via
     #   gftools
     #   glyphsets
-regex==2024.11.6
+regex==2025.7.34
     # via nanoemoji
-requests==2.32.3
+requests==2.32.4
     # via
     #   gftools
     #   glyphsets
@@ -282,26 +274,25 @@ requests==2.32.3
     #   youseedee
 resvg-cli==0.44.0
     # via nanoemoji
-rich==14.0.0
+rich==14.1.0
     # via gftools
-ruamel-yaml==0.18.10
+ruamel-yaml==0.18.14
     # via gftools
 ruamel-yaml-clib==0.2.12
     # via ruamel-yaml
-selenium==4.31.0
+selenium==4.34.2
     # via diffenator2
 sh==2.2.2
     # via -r requirements.in
 six==1.17.0
     # via
-    #   fs
     #   python-bidi
     #   python-dateutil
 skia-pathops==0.8.0.post2
     # via
     #   gftools
     #   picosvg
-skia-python==87.8
+skia-python==138.0
     # via
     #   blackrenderer
     #   drawbot-skia
@@ -313,7 +304,7 @@ sortedcontainers==2.4.0
     # via trio
 soupsieve==2.7
     # via beautifulsoup4
-statmake==1.0.1
+statmake==1.1.0
     # via gftools
 strictyaml==1.7.3
     # via gftools
@@ -333,20 +324,20 @@ trio==0.30.0
     #   trio-websocket
 trio-websocket==0.12.2
     # via selenium
-ttfautohint-py==0.5.1
+ttfautohint-py==0.6.0
     # via gftools
-typing-extensions==4.13.2
+typing-extensions==4.14.1
     # via
     #   beautifulsoup4
     #   cattrs
+    #   exceptiongroup
     #   pygithub
-    #   rich
     #   selenium
-ufo2ft[cffsubr,compreffor]==3.4.3
+ufo2ft[cffsubr,compreffor]==3.6.0
     # via
     #   fontmake
     #   nanoemoji
-ufolib2[json]==0.17.1
+ufolib2[json]==0.18.1
     # via
     #   babelfont
     #   bumpfontversion
@@ -355,7 +346,7 @@ ufolib2[json]==0.17.1
     #   nanoemoji
     #   ufomerge
     #   vttlib
-ufomerge==1.8.3
+ufomerge==1.9.6
     # via
     #   babelfont
     #   gftools
@@ -363,7 +354,7 @@ ufonormalizer==0.6.2
     # via afdko
 ufoprocessor==1.13.3
     # via afdko
-uharfbuzz==0.49.0
+uharfbuzz==0.51.1
     # via
     #   blackrenderer
     #   diffenator2
@@ -377,7 +368,7 @@ unicodedata2==15.1.0
     #   glyphsets
 unidecode==1.4.0
     # via gftools
-urllib3[socks]==2.4.0
+urllib3[socks]==2.5.0
     # via
     #   pygithub
     #   requests
@@ -388,8 +379,6 @@ vttlib==0.12.0
     # via gftools
 websocket-client==1.8.0
     # via selenium
-wrapt==1.17.2
-    # via deprecated
 wsproto==1.2.0
     # via trio-websocket
 youseedee==0.5.3
